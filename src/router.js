@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { Router, Route, Link,hashHistory ,IndexRoute } from 'react-router';
-import { render } from 'react-dom'
-import App from './components/index'
+import { render } from 'react-dom';
+import App from './components/index';
+import Living from './components/livingApp/living';
 
 
 class Routers extends Component {
@@ -9,7 +10,7 @@ class Routers extends Component {
         return (
             <Router history={hashHistory}>
                 <Route path="/" component={App}>
-
+                    <Route path="living" component={Living}/>
                 </Route>
             </Router>
         )
