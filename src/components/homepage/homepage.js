@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import HomepageScene from './homepageScene';
 import HomepageDIY from './homepageDIY';
+import HomepageBg from './homepageBg';
 
 class Homepage extends Component {
     render() {
@@ -59,6 +60,55 @@ class Homepage extends Component {
 
                 <div className="homepage-part4">
                     <HomepageDIY />
+                </div>
+
+                <div className="homepage-part5">
+                    <div className="homepage-part5-title">我们每天处理亿万直播生成与播放</div>
+                    <div className="homepage-part5-inner">
+                        <div className="homepage-part5-box">
+                            <div className="homepage-part5-box1">
+                                <span className="homepage-part5-num">20</span>
+                                <span>多名</span>
+                            </div>
+                            <div className="homepage-part5-box2">
+                                音视频领域顶尖工程师
+                            </div>
+                        </div>
+
+                        <div className="homepage-part5-box">
+                            <div className="homepage-part5-box1">
+                                <span className="homepage-part5-num">1100</span>
+                                <span>多天</span>
+                            </div>
+                            <div className="homepage-part5-box2">
+                                不懈努力与专研
+                            </div>
+                        </div>
+
+                        <div className="homepage-part5-box">
+                            <div className="homepage-part5-box1">
+                                <span className="homepage-part5-num">103</span>
+                                <span>项</span>
+                            </div>
+                            <div className="homepage-part5-box2">
+                                领先功能与改进
+                            </div>
+                        </div>
+
+                        <div className="homepage-part5-box">
+                            <div className="homepage-part5-box1">
+                                <span className="homepage-part5-num">168</span>
+                                <span>百万</span>
+                            </div>
+                            <div className="homepage-part5-box2">
+                                每天亿万的直播发起与观看
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="homepage-part6">
+                    <HomepageBg />
                 </div>
 
             </div>

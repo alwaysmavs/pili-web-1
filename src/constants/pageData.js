@@ -40,3 +40,42 @@ export const SCENES = [
         name:"FM"
     }
 ];
+
+export const BG_CUSTOMER = [
+    {
+        customerId: 1,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/blued.svg"
+    },
+    {
+        customerId: 2,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/gudong.svg"
+    },
+    {
+        customerId: 3,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/fenghuang1.svg"
+    },
+    {
+        customerId: 4,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/panda-tv.svg"
+    },
+    {
+        customerId: 5,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/longzhu.svg"
+    },
+    {
+        customerId: 6,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/qingting.svg"
+    },
+    {
+        customerId: 7,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/meipai1.svg"
+    },
+    {
+        customerId: 8,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/in.svg"
+    },
+    {
+        customerId: 9,
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/17.svg"
+    }
+];
