@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navigator from './public/navigator';
 import Footer from  './public/footer';
-import Living from './livingApp/living';
 
 
 class App extends Component {
