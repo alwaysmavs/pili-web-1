@@ -8,6 +8,8 @@ import Contact from './components/contact/contact';
 import Enterprise from './components/enterprise/enterprise';
 import Character from './components/character/character';
 import Price from './components/price/price';
+import Rtc from './components/rtc/rtc';
+import About from './components/about/about';
 
 class Routers extends Component {
     render() {
@@ -20,6 +22,8 @@ class Routers extends Component {
                     <Route path="enterprise" component={Enterprise}/>
                     <Route path="character" component={Character}/>
                     <Route path="price" component={Price}/>
+                    <Route path="rtc" component={Rtc}/>
+                    <Route path="about" component={About}/>
                 </Route>
             </Router>
         )
