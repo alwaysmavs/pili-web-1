@@ -3,6 +3,39 @@ import { render } from 'react-dom';
 import { SCENES } from '../../constants/pageData';
 
 class HomepageScene extends Component {
+
+    changeImage(id){
+
+        switch (id){
+            case 1:
+                {   this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/tonghua.png";
+                    this.refs.sceneLeft.data ++
+                };
+                break;
+            case 2:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+            case 3:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+            case 4:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+            case 5:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+            case 6:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+            case 7:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+            case 8:
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                break;
+        }
+    };
+
     render() {
 
         let scenesData = SCENES;
@@ -11,7 +44,7 @@ class HomepageScene extends Component {
             function(data){
 
                 return(
-                    <div className="scene-cell"  key={data.iconId}>
+                    <div className="scene-cell"  key={data.iconId} onClick={this.changeImage.bind(this,data.iconId)}>
                         <div className="scene-cell-midbox">
                             <div className="scene-icon">
                                 <img className="scene-icon-img" src={data.iconImg} />
@@ -22,7 +55,7 @@ class HomepageScene extends Component {
                         </div>
                     </div>
                 )
-            }
+            },this
         );
 
         return (
@@ -35,10 +68,11 @@ class HomepageScene extends Component {
 
                     </div>
                     <div className="scene-content-box">
-                        <img className="scene-content-img" src="http://ofji7fgcp.bkt.clouddn.com/tonghua.png"/>
+                        <img ref="sceneImg"
+                             className="scene-content-img"
+                             src="http://ofji7fgcp.bkt.clouddn.com/tonghua.png"/>
                     </div>
                     <div className="scene-content-arrow">
-                        <img src="http://ofji7fgcp.bkt.clouddn.com/sceneHover.svg" />
                     </div>
                 </div>
             </div>

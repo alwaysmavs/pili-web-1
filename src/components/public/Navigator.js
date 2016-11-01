@@ -15,12 +15,12 @@ class Navigator extends Component {
                         </Link>
                     </div>
                     <div className="nav-right">
+                        <div className="nav-right-cell">产品功能</div>
                         <div className="nav-right-cell">
                             <Link to="/price">价格</Link>
                         </div>
                         <div className="nav-right-cell">开发文档</div>
                         <div className="nav-right-cell">常见问题</div>
-                        <div className="nav-right-cell">登录</div>
                     </div>
 
                 </div>
