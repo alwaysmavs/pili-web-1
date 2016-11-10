@@ -13,8 +13,8 @@ class About extends Component {
 
         var particles, particle, count = 0;
 
-        var myWidth= window.innerWidth;
-        var myHeight= 600;
+        //var myWidth= window.innerWidth;
+        //var myHeight= window.innerHeight;
 
 
         init();
@@ -29,7 +29,7 @@ class About extends Component {
                 container.className += container.className ? ' waves' : 'waves';
             }
 
-            camera = new THREE.PerspectiveCamera( 120, myWidth / myHeight, 1, 10000 );
+            camera = new THREE.PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 1, 10000 );
             camera.position.y = 150; //changes how far back you can see i.e the particles towards horizon
             camera.position.z = 300; //This is how close or far the particles are seen
 
@@ -69,7 +69,7 @@ class About extends Component {
             }
 
             renderer = new THREE.CanvasRenderer();
-            renderer.setSize( myWidth, myHeight );
+            renderer.setSize( window.innerWidth, window.innerHeight );
             renderer.setClearColor( 0xffffff, 1);
             container.appendChild( renderer.domElement );
 
@@ -81,10 +81,10 @@ class About extends Component {
 
 
 
-            camera.aspect = myWidth / myHeight;
+            camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
 
-            renderer.setSize( myWidth, myHeight );
+            renderer.setSize( window.innerWidth , window.innerHeight );
 
         }
 

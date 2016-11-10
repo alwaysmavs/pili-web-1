@@ -10,6 +10,8 @@ import Character from './components/character/character';
 import Price from './components/price/price';
 import Rtc from './components/rtc/rtc';
 import About from './components/about/about';
+import Pushsdk from './components/pushsdk/pushsdk';
+import Player from './components/player/player';
 
 class Routers extends Component {
     render() {
@@ -24,6 +26,8 @@ class Routers extends Component {
                     <Route path="price" component={Price}/>
                     <Route path="rtc" component={Rtc}/>
                     <Route path="about" component={About}/>
+                    <Route path="pushsdk" component={Pushsdk}/>
+                    <Route path="player" component={Player}/>
                 </Route>
             </Router>
         )

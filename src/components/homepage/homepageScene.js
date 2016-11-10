@@ -8,8 +8,8 @@ class HomepageScene extends Component {
 
         switch (id){
             case 1:
-                {   this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/tonghua.png";
-                    this.refs.sceneLeft.data ++
+                {
+                    this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/tonghua.png";
                 };
                 break;
             case 2:
