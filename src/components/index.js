@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navigator from './public/navigator';
 import Footer from  './public/footer';
 
-
 class App extends Component {
     render() {
         return (

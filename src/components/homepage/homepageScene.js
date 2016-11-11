@@ -8,30 +8,29 @@ class HomepageScene extends Component {
 
         switch (id){
             case 1:
-                {
-                    this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/tonghua.png";
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E7%A4%BE%E4%BA%A4@2x.png";
                 };
                 break;
             case 2:
                 { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
                 break;
             case 3:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E5%8C%BB%E7%96%97@2x.png" };
                 break;
             case 4:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E6%B8%B8%E6%88%8F@2x.png" };
                 break;
             case 5:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E5%AE%A2%E6%9C%8D@2x.png" };
                 break;
             case 6:
                 { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
                 break;
             case 7:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D@2x.png" };
                 break;
             case 8:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/FM@2x.png" };
                 break;
         }
     };
