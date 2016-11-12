@@ -6,7 +6,7 @@ class Navigator extends Component {
     render() {
 
         return (
-            <header className="globalNav noDropdownTransition">
+            <header className="globalNav noDropdownTransition" name="top">
                 <div className="navRoot allowExpand">
                     <div className="nav-width">
                         <div className="navSection logo">

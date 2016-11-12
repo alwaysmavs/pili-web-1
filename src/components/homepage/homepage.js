@@ -6,6 +6,9 @@ import HomepageBg from './homepageBg';
 
 class Homepage extends Component {
     componentDidMount(){
+
+        // 文字翻动
+
         var words = document.getElementsByClassName('word');
         var wordArray = [];
         var currentWord = 0;
@@ -62,6 +65,48 @@ class Homepage extends Component {
         setInterval(changeWord, 4000);
 
 
+
+        // 数字滚动
+
+        var numUp = true;
+
+        $(window).scroll(function () {
+
+            var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
+
+            if (scrollBottom <= 620) {
+                if (numUp) {
+
+                    $('.pili-innerbox-num').each(function () {
+                        var $this = $(this),
+                            countTo = $this.attr('data-count');
+
+                        $({countNum: $this.text()}).animate({
+                                countNum: countTo
+                            },
+                            {
+                                duration: 1000,
+                                easing: 'linear',
+                                step: function () {
+                                    $this.text(Math.floor(this.countNum));
+                                },
+                                complete: function () {
+                                    $this.text(this.countNum);
+                                    //alert('finished');
+                                }
+                            });
+                    });
+
+                    numUp = false;
+                }
+
+            }
+
+        });
+
+
+
+
     }
 
     render() {
@@ -104,7 +149,7 @@ class Homepage extends Component {
                             方音视频效果。
                         </div>
                     </div>
-                    <div className="cutline-1"></div>
+
                     <div className="homepage-part3-box">
                         <div className="homepage-part3-title">开发文档</div>
                         <div className="homepage-part3-inner">
@@ -113,7 +158,7 @@ class Homepage extends Component {
                             更多端的不同版本。
                         </div>
                     </div>
-                    <div className="cutline-1"></div>
+
                     <div className="homepage-part3-box">
                         <div className="homepage-part3-title">企业服务</div>
                         <div className="homepage-part3-inner">
@@ -133,7 +178,7 @@ class Homepage extends Component {
                     <div className="homepage-part5-inner">
                         <div className="homepage-part5-box">
                             <div className="homepage-part5-box1">
-                                <span className="homepage-part5-num">20</span>
+                                <span className="homepage-part5-num pili-innerbox-num" data-count="20">0</span>
                                 <span>多名</span>
                             </div>
                             <div className="homepage-part5-box2">
@@ -143,7 +188,7 @@ class Homepage extends Component {
 
                         <div className="homepage-part5-box">
                             <div className="homepage-part5-box1">
-                                <span className="homepage-part5-num">1100</span>
+                                <span className="homepage-part5-num pili-innerbox-num" data-count="1100">0</span>
                                 <span>多天</span>
                             </div>
                             <div className="homepage-part5-box2">
@@ -153,7 +198,7 @@ class Homepage extends Component {
 
                         <div className="homepage-part5-box">
                             <div className="homepage-part5-box1">
-                                <span className="homepage-part5-num">103</span>
+                                <span className="homepage-part5-num pili-innerbox-num" data-count="103">0</span>
                                 <span>项</span>
                             </div>
                             <div className="homepage-part5-box2">
@@ -163,7 +208,7 @@ class Homepage extends Component {
 
                         <div className="homepage-part5-box">
                             <div className="homepage-part5-box1">
-                                <span className="homepage-part5-num">168</span>
+                                <span className="homepage-part5-num pili-innerbox-num" data-count="168">0</span>
                                 <span>百万</span>
                             </div>
                             <div className="homepage-part5-box2">

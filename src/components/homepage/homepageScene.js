@@ -12,25 +12,25 @@ class HomepageScene extends Component {
                 };
                 break;
             case 2:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E6%95%99%E8%82%B2.png" };
                 break;
             case 3:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E5%8C%BB%E7%96%97@2x.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E5%8C%BB%E7%96%97.png" };
                 break;
             case 4:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E6%B8%B8%E6%88%8F@2x.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E6%B8%B8%E6%88%8F.png" };
                 break;
             case 5:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E5%AE%A2%E6%9C%8D@2x.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E5%AE%A2%E6%9C%8D.png" };
                 break;
             case 6:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/Nexus.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E7%94%B5%E5%95%86.png" };
                 break;
             case 7:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D@2x.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D.png" };
                 break;
             case 8:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/FM@2x.png" };
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/FM.png" };
                 break;
         }
     };
@@ -63,16 +63,13 @@ class HomepageScene extends Component {
                     {scenesDataList}
                 </div>
                 <div className="scene-content">
-                    <div className="scene-content-arrow">
 
-                    </div>
                     <div className="scene-content-box">
                         <img ref="sceneImg"
                              className="scene-content-img"
                              src="http://ofji7fgcp.bkt.clouddn.com/tonghua.png"/>
                     </div>
-                    <div className="scene-content-arrow">
-                    </div>
+
                 </div>
             </div>
         )
