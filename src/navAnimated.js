@@ -191,5 +191,5 @@ Strut.isRetina = window.devicePixelRatio > 1.3, Strut.mobileViewportWidth = 670,
     var t = document.getElementsByClassName(this.activeClass);
     for (var n = 0; n < t.length; n++) t[n].classList.remove(this.activeClass)
 }, Strut.supports.pointerEvents || Strut.load.css("v3/shared/navigation_ie10.css"), Strut.ready(function () {
-    new globalNavDropdowns(".globalNav"), new globalNavPopup(".globalNav .navSection.mobile"), new globalNavPopup(".globalFooterNav .select.country"), new globalNavPopup(".globalFooterNav .select.language")
+    new globalNavDropdowns(".globalNav"), new globalNavPopup(".globalNav .navSection.mobile")
 });

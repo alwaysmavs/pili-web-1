@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 
 class Price extends Component {
+    componentDidMount(){
+        
+    }
+
     render() {
         return (
             <div className="price-outbox">

@@ -11,7 +11,6 @@ class HomepageBg extends Component {
         var scroll_div = document.getElementById("scroll_div");
         scroll_end.innerHTML = scroll_begin.innerHTML
         function Marquee() {
-            console.log(scroll_div.scrollLeft );
             if (scroll_end.offsetWidth - scroll_div.scrollLeft <= 0)
                 scroll_div.scrollLeft -= scroll_begin.offsetWidth
             else

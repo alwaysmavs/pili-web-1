@@ -6,7 +6,7 @@ class Navigator extends Component {
     render() {
 
         return (
-            <header className="globalNav noDropdownTransition" name="top">
+            <header className="globalNav noDropdownTransition" id="top">
                 <div className="navRoot allowExpand">
                     <div className="nav-width">
                         <div className="navSection logo">
@@ -16,21 +16,24 @@ class Navigator extends Component {
                         </div>
                         <div className="navSection primary">
 
-                            <div className="hasDropdown " data-dropdown="product">
+                            <div className="hasDropdown colorize" data-dropdown="product">
                                 <span className="rootLink">产品与功能</span>
                             </div>
 
-                            <div className="hasDropdown " data-dropdown="developers">
+                            <div className="hasDropdown colorize " data-dropdown="developers">
                                 <span className="rootLink">开发者</span>
                             </div>
 
-                            <div className="hasDropdown " data-dropdown="problem">
+                            <div className="hasDropdown colorize" data-dropdown="problem">
                                 <span className="rootLink">常见问题</span>
                             </div>
 
-                            <div className="hasDropdown " data-dropdown="enterprise">
-                                <span className="rootLink">企业服务</span>
-                            </div>
+                            <Link to="/enterprise">
+                                <div className="colorize" data-dropdown="enterprise">
+                                    <span className="rootLink2">企业服务</span>
+                                </div>
+                            </Link>
+
                         </div>
 
                         <div className="navSection secondary">
@@ -68,57 +71,66 @@ class Navigator extends Component {
                                 <div className="nav-stripe-product">
                                     <div className="nav-stripe-product-midbox">
 
-                                        <div className="nav-stripe-product-cell nav-stripe-padding">
-                                            <div className="nav-stripe-product-imgbox">
-                                                <img src="http://ofji7fgcp.bkt.clouddn.com/navLianmai.svg" />
-                                            </div>
-                                            <div className="nav-stripe-product-textbox">
-                                                <div className="nav-stripe-product-title">连麦互动 SDK</div>
-                                                <div className="nav-stripe-product-inner">
-                                                    最好的连麦解决方案，<br/>
-                                                    迎合现有市场的最佳直播套装。
+                                        <Link to="/rtc">
+                                            <div className="nav-stripe-product-cell nav-stripe-margin">
+                                                <div className="nav-stripe-product-imgbox">
+                                                    <img src={require('../../static/public/lianmai.jpg')} />
+                                                </div>
+                                                <div className="nav-stripe-product-textbox">
+                                                    <div className="nav-stripe-product-title">连麦互动 SDK</div>
+                                                    <div className="nav-stripe-product-inner">
+                                                        最好的连麦解决方案，<br/>
+                                                        迎合现有市场的最佳直播套装。
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </Link>
 
-                                        <div className="nav-stripe-product-cell">
-                                            <div className="nav-stripe-product-imgbox">
-                                                <img src="http://ofji7fgcp.bkt.clouddn.com/navPlayer.svg" />
-                                            </div>
-                                            <div className="nav-stripe-product-textbox">
-                                                <div className="nav-stripe-product-title">播放器 SDK</div>
-                                                <div className="nav-stripe-product-inner">
-                                                    多种格式和码率，<br/>
-                                                    给予你的用户最佳播放体验。
+                                        <Link to="/player">
+                                            <div className="nav-stripe-product-cell">
+                                                <div className="nav-stripe-product-imgbox">
+                                                    <img src={require('../../static/public/player.jpg')} />
+                                                </div>
+                                                <div className="nav-stripe-product-textbox">
+                                                    <div className="nav-stripe-product-title">播放器 SDK</div>
+                                                    <div className="nav-stripe-product-inner">
+                                                        多种格式和码率，<br/>
+                                                        给予你的用户最佳播放体验。
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </Link>
 
-                                        <div className="nav-stripe-product-cell nav-stripe-padding">
-                                            <div className="nav-stripe-product-imgbox">
-                                                <img src="http://ofji7fgcp.bkt.clouddn.com/navStreaming.svg" />
-                                            </div>
-                                            <div className="nav-stripe-product-textbox">
-                                                <div className="nav-stripe-product-title">推流 SDK</div>
-                                                <div className="nav-stripe-product-inner">
-                                                    采集硬件音视频，<br/>
-                                                    结合自定义处理推流出去。
+                                        <Link to="/pushsdk">
+                                            <div className="nav-stripe-product-cell nav-stripe-margin">
+                                                <div className="nav-stripe-product-imgbox">
+                                                    <img src={require('../../static/public/streaming.jpg')} />
+                                                </div>
+                                                <div className="nav-stripe-product-textbox">
+                                                    <div className="nav-stripe-product-title">推流 SDK</div>
+                                                    <div className="nav-stripe-product-inner">
+                                                        采集硬件音视频，<br/>
+                                                        结合自定义处理推流出去。
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </Link>
 
-                                        <div className="nav-stripe-product-cell">
-                                            <div className="nav-stripe-product-imgbox">
-                                                <img src="http://ofji7fgcp.bkt.clouddn.com/navFeatures.svg" />
-                                            </div>
-                                            <div className="nav-stripe-product-textbox">
-                                                <div className="nav-stripe-product-title">功能大全</div>
-                                                <div className="nav-stripe-product-inner">
-                                                    涵盖市场主流功能，<br/>
-                                                    更有自定义功能无限嵌入。
+                                        <Link to="/character">
+                                            <div className="nav-stripe-product-cell">
+                                                <div className="nav-stripe-product-imgbox">
+                                                    <img src={require('../../static/public/features.jpg')} />
+                                                </div>
+                                                <div className="nav-stripe-product-textbox">
+                                                    <div className="nav-stripe-product-title">功能大全</div>
+                                                    <div className="nav-stripe-product-inner">
+                                                        涵盖市场主流功能，<br/>
+                                                        更有自定义功能无限嵌入。
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </Link>
+
 
                                     </div>
                                 </div>

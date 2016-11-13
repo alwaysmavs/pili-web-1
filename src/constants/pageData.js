@@ -6,42 +6,42 @@
 export const SCENES = [
     {
         iconId: 1,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/emoticons-24px-outline_laugh-17.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/game.svg",
         name:"社交"
     },
     {
         iconId: 2,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/business-24px-outline_board-30.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/tech.svg",
         name:"教育"
     },
     {
         iconId: 3,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/health-24px-outline_doctor.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/doctor.svg",
         name:"医疗"
     },
     {
         iconId: 4,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/game-24px-outline_controller.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/game.svg",
         name:"游戏"
     },
     {
         iconId: 5,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/media-24px-outline-2_headphones-mic.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/kefu.svg",
         name:"客服"
     },
     {
         iconId: 6,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/game-24px-outline_controller.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/shopping.svg",
         name:"电商"
     },
     {
         iconId: 7,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/fm-24px-outline_wifi-router.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/shixun.svg",
         name:"视讯"
     },
     {
         iconId: 8,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/fm-24px-outline_wifi-router.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/fm.svg",
         name:"FM"
     }
 ];

@@ -4,26 +4,37 @@
 }
 
 .nav-stripe-product-midbox{
-  width: 600px;
+  width: 640px;
   height: 280px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
 }
 
-.nav-stripe-product-cell{
-  .flex-box-between;
-  width: 280px;
-  float: left;
+.nav-stripe-product-textbox{
+  width: 220px;
 }
 
-.nav-stripe-padding{
-  padding-right: 40px;
-  padding-bottom: 50px;
+.nav-stripe-product-cell{
+  .main-duration;
+  .flex-box-between;
+  width: 300px;
+  float: left;
+  cursor: pointer;
+  &:hover{
+    opacity: 0.6;
+    .main-duration
+  }
+}
+
+.nav-stripe-margin{
+  margin-right: 40px;
+  margin-bottom: 50px;
 }
 
 .nav-stripe-product-imgbox{
   padding-top: 10px;
+  padding-right: 20px;
 }
 
 .nav-stripe-product-title{
@@ -68,6 +79,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 300;
 }
 
 .companyRoot{
@@ -161,23 +173,33 @@
 }
 
 .logo{
+  .main-duration;
   float: left;
   margin-top: 28px;
-}
-
-.primary{
-  float: right;
-  .flex-box-between
-}
-
-.rootLink{
-  .main-duration;
-  margin-left: 50px;
-  cursor: pointer;
   &:hover{
     .main-duration;
     opacity: 0.6;
   }
+}
+
+.primary{
+  float: right;
+  .flex-box-between;
+}
+
+.rootLink{
+  .main-duration;
+  line-height: 80px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rootLink2{
+  .main-duration;
+  line-height: 80px;
+  cursor: pointer;
+  padding-left: 20px;
 }
 
 .globalNav .navSection {
@@ -237,19 +259,23 @@
 }
 
 .globalNav .colorize {
-  color: #6772e5;
-  -webkit-transition: color .1s ease;
-  transition: color .1s ease
+  color: black;
+  .main-duration
+}
+
+
+.globalNav .colorize.active,
+.globalNav .colorize:hover {
+  opacity: 0.6;
+  .main-duration
 }
 
 
 
-
-
-.globalNav .hasDropdown .rootLink {
-  cursor: pointer;
-  line-height: 80px;
-}
+//.globalNav .hasDropdown .rootLink {
+//  cursor: pointer;
+//  line-height: 80px;
+//}
 
 .globalNav .rootLink h2 {
   font-size: 17px;
@@ -347,11 +373,11 @@
   transition-duration: .25s
 }
 
-.globalNav .alternateBackground {
-  right: 0;
-  height: 1000px;
-  background: #f6f9fc
-}
+//.globalNav .alternateBackground {
+//  right: 0;
+//  height: 1000px;
+//  background: #f6f9fc
+//}
 
 .globalNav .dropdownArrow {
   top: -6px;
@@ -443,37 +469,37 @@
   padding: 9px 0
 }
 
-.globalNav .linkTitle {
-  color: #6772e5;
-  font-size: 16px;
-  line-height: 22px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: .025em
-}
+//.globalNav .linkTitle {
+//  color: #6772e5;
+//  font-size: 16px;
+//  line-height: 22px;
+//  text-transform: uppercase;
+//  font-weight: 600;
+//  letter-spacing: .025em
+//}
 
-.globalNav .linkSub {
-  font-size: 15px;
-  line-height: 22px;
-  color: #6b7c93;
-  margin-top: 5px;
-  display: block
-}
+//.globalNav .linkSub {
+//  font-size: 15px;
+//  line-height: 22px;
+//  color: #6b7c93;
+//  margin-top: 5px;
+//  display: block
+//}
 
-.globalNav .linkSub,
-.globalNav .linkTitle {
-  -webkit-transition: color .1s;
-  transition: color .1s
-}
+//.globalNav .linkSub,
+//.globalNav .linkTitle {
+//  -webkit-transition: color .1s;
+//  transition: color .1s
+//}
 
-.globalNav .linkContainer:hover .linkTitle,
-.globalNav .linkTitle:hover {
-  color: #32325d
-}
+//.globalNav .linkContainer:hover .linkTitle,
+//.globalNav .linkTitle:hover {
+//  color: #32325d
+//}
 
-.globalNav .linkContainer:hover .linkSub {
-  color: #424770
-}
+//.globalNav .linkContainer:hover .linkSub {
+//  color: #424770
+//}
 
 .globalNav .hover-fillDark,
 .globalNav .hover-fillLight {

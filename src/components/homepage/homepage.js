@@ -4,11 +4,17 @@ import HomepageScene from './homepageScene';
 import HomepageDIY from './homepageDIY';
 import HomepageBg from './homepageBg';
 
+var timer;
+
 class Homepage extends Component {
+
+    setTimer(e){
+        timer = e;
+    }
+
     componentDidMount(){
 
         // 文字翻动
-
         var words = document.getElementsByClassName('word');
         var wordArray = [];
         var currentWord = 0;
@@ -20,6 +26,7 @@ class Homepage extends Component {
 
         function changeWord() {
             var cw = wordArray[currentWord];
+
             var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
             for (var i = 0; i < cw.length; i++) {
                 animateLetterOut(cw, i);
@@ -62,9 +69,9 @@ class Homepage extends Component {
         }
 
         changeWord();
-        setInterval(changeWord, 4000);
+        var timer = setInterval(changeWord, 4000);
 
-
+        this.setTimer(timer);
 
         // 数字滚动
 
@@ -103,11 +110,13 @@ class Homepage extends Component {
             }
 
         });
-
-
-
-
     }
+
+
+    componentWillUnmount(){
+        clearInterval(timer);
+    }
+
 
     render() {
         return (
@@ -131,7 +140,7 @@ class Homepage extends Component {
                     </div>
                     <div className="homepage-part1-right">
                         <div className="homepage-part1-btn">
-                            立即免费使用
+                            立即联系使用
                         </div>
                     </div>
                 </div>

@@ -23,7 +23,9 @@ class Footer extends Component {
                         <div>常见问题</div>
                 </div>
                 <div className="footer-bottom">
-                    沪 ICP 备 14045638 号
+                    <a href="http://www.qiniu.com">
+                        A team of Qiniu.
+                    </a>
                 </div>
             </div>
         )
