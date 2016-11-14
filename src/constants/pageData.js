@@ -6,7 +6,7 @@
 export const SCENES = [
     {
         iconId: 1,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/game.svg",
+        iconImg: "http://ofji7fgcp.bkt.clouddn.com/sejiao.svg",
         name:"社交"
     },
     {

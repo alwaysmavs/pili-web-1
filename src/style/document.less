@@ -4,7 +4,6 @@
   margin-left: auto;
   margin-right: auto;
   padding-top: 120px;
-  background-color: yellow;
 }
 
 .document-part1{
@@ -12,8 +11,8 @@
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: red;
   font-weight: 200;
+  .flex-box-between
 }
 
 .document-part1-title{
@@ -48,4 +47,329 @@
 .document-part2-cell1{
   .flex-box-between;
   background-color: yellow;
+}
+
+
+.document-part2-right{
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+/********************************/
+
+/*
+ * I made up an icosahedron with only css triangles
+ * Positionning is handled by a sass @for loop
+ * A nice hover effect
+*/
+.spin {
+  -webkit-animation: spin 5s linear infinite;
+  -moz-animation: spin 5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg) rotateX(-20deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg) rotateX(-20deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotateY(0deg) rotateX(-20deg);
+  }
+  to {
+    -moz-transform: rotateY(360deg) rotateX(-20deg);
+  }
+}
+.icosahedron-wraper {
+  -moz-transform: rotate(-29deg) rotateX(0deg);
+  -ms-transform: rotate(-29deg) rotateX(0deg);
+  -webkit-transform: rotate(-29deg) rotateX(0deg);
+  transform: rotate(-29deg) rotateX(0deg);
+  -webkit-perspective: 2500px;
+  -moz-perspective: 2500px;
+}
+
+.icosahedron {
+  width: 198px;
+  height: 198px;
+  margin: 130px auto 0;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  outline: 0px solid black;
+}
+.icosahedron [class^="triangle-"] {
+  position: absolute;
+  top: 0;
+  width: 0px;
+  height: 0px;
+  border-left: 104.21053px solid transparent;
+  border-right: 104.21053px solid transparent;
+  border-bottom: 198px solid black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.icosahedron .triangle-21 {
+  border-bottom-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+.icosahedron .triangle-1 {
+  -moz-transform: rotateY(-72deg) rotateX(-45deg) translateZ(-99px);
+  -ms-transform: rotateY(-72deg) rotateX(-45deg) translateZ(-99px);
+  -webkit-transform: rotateY(-72deg) rotateX(-45deg) translateZ(-99px);
+  transform: rotateY(-72deg) rotateX(-45deg) translateZ(-99px);
+  top: -99px;
+}
+.icosahedron:hover .triangle-1 {
+  top: -198px;
+}
+.icosahedron .triangle-2 {
+  -moz-transform: rotateY(-144deg) rotateX(-45deg) translateZ(-99px);
+  -ms-transform: rotateY(-144deg) rotateX(-45deg) translateZ(-99px);
+  -webkit-transform: rotateY(-144deg) rotateX(-45deg) translateZ(-99px);
+  transform: rotateY(-144deg) rotateX(-45deg) translateZ(-99px);
+  top: -99px;
+}
+.icosahedron:hover .triangle-2 {
+  top: -198px;
+}
+.icosahedron .triangle-3 {
+  -moz-transform: rotateY(-216deg) rotateX(-45deg) translateZ(-99px);
+  -ms-transform: rotateY(-216deg) rotateX(-45deg) translateZ(-99px);
+  -webkit-transform: rotateY(-216deg) rotateX(-45deg) translateZ(-99px);
+  transform: rotateY(-216deg) rotateX(-45deg) translateZ(-99px);
+  top: -99px;
+}
+.icosahedron:hover .triangle-3 {
+  top: -198px;
+}
+.icosahedron .triangle-4 {
+  -moz-transform: rotateY(-288deg) rotateX(-45deg) translateZ(-99px);
+  -ms-transform: rotateY(-288deg) rotateX(-45deg) translateZ(-99px);
+  -webkit-transform: rotateY(-288deg) rotateX(-45deg) translateZ(-99px);
+  transform: rotateY(-288deg) rotateX(-45deg) translateZ(-99px);
+  top: -99px;
+}
+.icosahedron:hover .triangle-4 {
+  top: -198px;
+}
+.icosahedron .triangle-5 {
+  -moz-transform: rotateY(-360deg) rotateX(-45deg) translateZ(-99px);
+  -ms-transform: rotateY(-360deg) rotateX(-45deg) translateZ(-99px);
+  -webkit-transform: rotateY(-360deg) rotateX(-45deg) translateZ(-99px);
+  transform: rotateY(-360deg) rotateX(-45deg) translateZ(-99px);
+  top: -99px;
+}
+.icosahedron:hover .triangle-5 {
+  top: -198px;
+}
+.icosahedron .triangle-6 {
+  -moz-transform: rotateY(-432deg) rotateX(-45deg) translateZ(99px);
+  -ms-transform: rotateY(-432deg) rotateX(-45deg) translateZ(99px);
+  -webkit-transform: rotateY(-432deg) rotateX(-45deg) translateZ(99px);
+  transform: rotateY(-432deg) rotateX(-45deg) translateZ(99px);
+  top: 99px;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-6 {
+  top: 198px;
+}
+.icosahedron .triangle-7 {
+  -moz-transform: rotateY(-504deg) rotateX(-45deg) translateZ(99px);
+  -ms-transform: rotateY(-504deg) rotateX(-45deg) translateZ(99px);
+  -webkit-transform: rotateY(-504deg) rotateX(-45deg) translateZ(99px);
+  transform: rotateY(-504deg) rotateX(-45deg) translateZ(99px);
+  top: 99px;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-7 {
+  top: 198px;
+}
+.icosahedron .triangle-8 {
+  -moz-transform: rotateY(-576deg) rotateX(-45deg) translateZ(99px);
+  -ms-transform: rotateY(-576deg) rotateX(-45deg) translateZ(99px);
+  -webkit-transform: rotateY(-576deg) rotateX(-45deg) translateZ(99px);
+  transform: rotateY(-576deg) rotateX(-45deg) translateZ(99px);
+  top: 99px;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-8 {
+  top: 198px;
+}
+.icosahedron .triangle-9 {
+  -moz-transform: rotateY(-648deg) rotateX(-45deg) translateZ(99px);
+  -ms-transform: rotateY(-648deg) rotateX(-45deg) translateZ(99px);
+  -webkit-transform: rotateY(-648deg) rotateX(-45deg) translateZ(99px);
+  transform: rotateY(-648deg) rotateX(-45deg) translateZ(99px);
+  top: 99px;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-9 {
+  top: 198px;
+}
+.icosahedron .triangle-10 {
+  -moz-transform: rotateY(-720deg) rotateX(-45deg) translateZ(99px);
+  -ms-transform: rotateY(-720deg) rotateX(-45deg) translateZ(99px);
+  -webkit-transform: rotateY(-720deg) rotateX(-45deg) translateZ(99px);
+  transform: rotateY(-720deg) rotateX(-45deg) translateZ(99px);
+  top: 99px;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-10 {
+  top: 198px;
+}
+.icosahedron .triangle-11 {
+  -moz-transform: rotateY(-792deg) translateZ(-155px) rotateX(-9deg);
+  -ms-transform: rotateY(-792deg) translateZ(-155px) rotateX(-9deg);
+  -webkit-transform: rotateY(-792deg) translateZ(-155px) rotateX(-9deg);
+  transform: rotateY(-792deg) translateZ(-155px) rotateX(-9deg);
+  top: 0;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-11 {
+  -moz-transform: rotateY(-792deg) translateZ(-230px) rotateX(-9deg);
+  -ms-transform: rotateY(-792deg) translateZ(-230px) rotateX(-9deg);
+  -webkit-transform: rotateY(-792deg) translateZ(-230px) rotateX(-9deg);
+  transform: rotateY(-792deg) translateZ(-230px) rotateX(-9deg);
+}
+.icosahedron .triangle-12 {
+  -moz-transform: rotateY(-864deg) translateZ(-155px) rotateX(-9deg);
+  -ms-transform: rotateY(-864deg) translateZ(-155px) rotateX(-9deg);
+  -webkit-transform: rotateY(-864deg) translateZ(-155px) rotateX(-9deg);
+  transform: rotateY(-864deg) translateZ(-155px) rotateX(-9deg);
+  top: 0;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-12 {
+  -moz-transform: rotateY(-864deg) translateZ(-230px) rotateX(-9deg);
+  -ms-transform: rotateY(-864deg) translateZ(-230px) rotateX(-9deg);
+  -webkit-transform: rotateY(-864deg) translateZ(-230px) rotateX(-9deg);
+  transform: rotateY(-864deg) translateZ(-230px) rotateX(-9deg);
+}
+.icosahedron .triangle-13 {
+  -moz-transform: rotateY(-936deg) translateZ(-155px) rotateX(-9deg);
+  -ms-transform: rotateY(-936deg) translateZ(-155px) rotateX(-9deg);
+  -webkit-transform: rotateY(-936deg) translateZ(-155px) rotateX(-9deg);
+  transform: rotateY(-936deg) translateZ(-155px) rotateX(-9deg);
+  top: 0;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-13 {
+  -moz-transform: rotateY(-936deg) translateZ(-230px) rotateX(-9deg);
+  -ms-transform: rotateY(-936deg) translateZ(-230px) rotateX(-9deg);
+  -webkit-transform: rotateY(-936deg) translateZ(-230px) rotateX(-9deg);
+  transform: rotateY(-936deg) translateZ(-230px) rotateX(-9deg);
+}
+.icosahedron .triangle-14 {
+  -moz-transform: rotateY(-1008deg) translateZ(-155px) rotateX(-9deg);
+  -ms-transform: rotateY(-1008deg) translateZ(-155px) rotateX(-9deg);
+  -webkit-transform: rotateY(-1008deg) translateZ(-155px) rotateX(-9deg);
+  transform: rotateY(-1008deg) translateZ(-155px) rotateX(-9deg);
+  top: 0;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-14 {
+  -moz-transform: rotateY(-1008deg) translateZ(-230px) rotateX(-9deg);
+  -ms-transform: rotateY(-1008deg) translateZ(-230px) rotateX(-9deg);
+  -webkit-transform: rotateY(-1008deg) translateZ(-230px) rotateX(-9deg);
+  transform: rotateY(-1008deg) translateZ(-230px) rotateX(-9deg);
+}
+.icosahedron .triangle-15 {
+  -moz-transform: rotateY(-1080deg) translateZ(-155px) rotateX(-9deg);
+  -ms-transform: rotateY(-1080deg) translateZ(-155px) rotateX(-9deg);
+  -webkit-transform: rotateY(-1080deg) translateZ(-155px) rotateX(-9deg);
+  transform: rotateY(-1080deg) translateZ(-155px) rotateX(-9deg);
+  top: 0;
+  border-bottom: none;
+  border-top: 198px solid black;
+}
+.icosahedron:hover .triangle-15 {
+  -moz-transform: rotateY(-1080deg) translateZ(-230px) rotateX(-9deg);
+  -ms-transform: rotateY(-1080deg) translateZ(-230px) rotateX(-9deg);
+  -webkit-transform: rotateY(-1080deg) translateZ(-230px) rotateX(-9deg);
+  transform: rotateY(-1080deg) translateZ(-230px) rotateX(-9deg);
+}
+.icosahedron .triangle-16 {
+  -moz-transform: rotateY(-1404deg) translateZ(-155px) rotateX(9deg);
+  -ms-transform: rotateY(-1404deg) translateZ(-155px) rotateX(9deg);
+  -webkit-transform: rotateY(-1404deg) translateZ(-155px) rotateX(9deg);
+  transform: rotateY(-1404deg) translateZ(-155px) rotateX(9deg);
+  top: 0;
+}
+.icosahedron:hover .triangle-16 {
+  -moz-transform: rotateY(-1404deg) translateZ(-230px) rotateX(9deg);
+  -ms-transform: rotateY(-1404deg) translateZ(-230px) rotateX(9deg);
+  -webkit-transform: rotateY(-1404deg) translateZ(-230px) rotateX(9deg);
+  transform: rotateY(-1404deg) translateZ(-230px) rotateX(9deg);
+}
+.icosahedron .triangle-17 {
+  -moz-transform: rotateY(-1476deg) translateZ(-155px) rotateX(9deg);
+  -ms-transform: rotateY(-1476deg) translateZ(-155px) rotateX(9deg);
+  -webkit-transform: rotateY(-1476deg) translateZ(-155px) rotateX(9deg);
+  transform: rotateY(-1476deg) translateZ(-155px) rotateX(9deg);
+  top: 0;
+}
+.icosahedron:hover .triangle-17 {
+  -moz-transform: rotateY(-1476deg) translateZ(-230px) rotateX(9deg);
+  -ms-transform: rotateY(-1476deg) translateZ(-230px) rotateX(9deg);
+  -webkit-transform: rotateY(-1476deg) translateZ(-230px) rotateX(9deg);
+  transform: rotateY(-1476deg) translateZ(-230px) rotateX(9deg);
+}
+.icosahedron .triangle-18 {
+  -moz-transform: rotateY(-1548deg) translateZ(-155px) rotateX(9deg);
+  -ms-transform: rotateY(-1548deg) translateZ(-155px) rotateX(9deg);
+  -webkit-transform: rotateY(-1548deg) translateZ(-155px) rotateX(9deg);
+  transform: rotateY(-1548deg) translateZ(-155px) rotateX(9deg);
+  top: 0;
+}
+.icosahedron:hover .triangle-18 {
+  -moz-transform: rotateY(-1548deg) translateZ(-230px) rotateX(9deg);
+  -ms-transform: rotateY(-1548deg) translateZ(-230px) rotateX(9deg);
+  -webkit-transform: rotateY(-1548deg) translateZ(-230px) rotateX(9deg);
+  transform: rotateY(-1548deg) translateZ(-230px) rotateX(9deg);
+}
+.icosahedron .triangle-19 {
+  -moz-transform: rotateY(-1620deg) translateZ(-155px) rotateX(9deg);
+  -ms-transform: rotateY(-1620deg) translateZ(-155px) rotateX(9deg);
+  -webkit-transform: rotateY(-1620deg) translateZ(-155px) rotateX(9deg);
+  transform: rotateY(-1620deg) translateZ(-155px) rotateX(9deg);
+  top: 0;
+}
+.icosahedron:hover .triangle-19 {
+  -moz-transform: rotateY(-1620deg) translateZ(-230px) rotateX(9deg);
+  -ms-transform: rotateY(-1620deg) translateZ(-230px) rotateX(9deg);
+  -webkit-transform: rotateY(-1620deg) translateZ(-230px) rotateX(9deg);
+  transform: rotateY(-1620deg) translateZ(-230px) rotateX(9deg);
+}
+.icosahedron .triangle-20 {
+  -moz-transform: rotateY(-1692deg) translateZ(-155px) rotateX(9deg);
+  -ms-transform: rotateY(-1692deg) translateZ(-155px) rotateX(9deg);
+  -webkit-transform: rotateY(-1692deg) translateZ(-155px) rotateX(9deg);
+  transform: rotateY(-1692deg) translateZ(-155px) rotateX(9deg);
+  top: 0;
+}
+.icosahedron:hover .triangle-20 {
+  -moz-transform: rotateY(-1692deg) translateZ(-230px) rotateX(9deg);
+  -ms-transform: rotateY(-1692deg) translateZ(-230px) rotateX(9deg);
+  -webkit-transform: rotateY(-1692deg) translateZ(-230px) rotateX(9deg);
+  transform: rotateY(-1692deg) translateZ(-230px) rotateX(9deg);
 }
