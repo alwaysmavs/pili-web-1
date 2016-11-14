@@ -24,9 +24,11 @@ class Navigator extends Component {
                                 <span className="rootLink">开发者</span>
                             </div>
 
-                            <div className="hasDropdown colorize" data-dropdown="problem">
-                                <span className="rootLink">常见问题</span>
-                            </div>
+                            <a href="https://pili.kf5.com/hc/">
+                                <div className="colorize" data-dropdown="problem">
+                                    <span className="rootLink">常见问题</span>
+                                </div>
+                            </a>
 
                             <Link to="/enterprise">
                                 <div className="colorize" data-dropdown="enterprise">
@@ -74,7 +76,7 @@ class Navigator extends Component {
                                         <Link to="/rtc">
                                             <div className="nav-stripe-product-cell nav-stripe-margin">
                                                 <div className="nav-stripe-product-imgbox">
-                                                    <img src={require('../../static/public/lianmai.jpg')} />
+                                                    <img src="http://ofji7fgcp.bkt.clouddn.com/lianmai.svg" />
                                                 </div>
                                                 <div className="nav-stripe-product-textbox">
                                                     <div className="nav-stripe-product-title">连麦互动 SDK</div>
@@ -89,7 +91,7 @@ class Navigator extends Component {
                                         <Link to="/player">
                                             <div className="nav-stripe-product-cell">
                                                 <div className="nav-stripe-product-imgbox">
-                                                    <img src={require('../../static/public/player.jpg')} />
+                                                    <img src="http://ofji7fgcp.bkt.clouddn.com/player.svg" />
                                                 </div>
                                                 <div className="nav-stripe-product-textbox">
                                                     <div className="nav-stripe-product-title">播放器 SDK</div>
@@ -104,7 +106,7 @@ class Navigator extends Component {
                                         <Link to="/pushsdk">
                                             <div className="nav-stripe-product-cell nav-stripe-margin">
                                                 <div className="nav-stripe-product-imgbox">
-                                                    <img src={require('../../static/public/streaming.jpg')} />
+                                                    <img src="http://ofji7fgcp.bkt.clouddn.com/streaming.svg" />
                                                 </div>
                                                 <div className="nav-stripe-product-textbox">
                                                     <div className="nav-stripe-product-title">推流 SDK</div>
@@ -119,7 +121,7 @@ class Navigator extends Component {
                                         <Link to="/character">
                                             <div className="nav-stripe-product-cell">
                                                 <div className="nav-stripe-product-imgbox">
-                                                    <img src={require('../../static/public/features.jpg')} />
+                                                    <img src="http://ofji7fgcp.bkt.clouddn.com/features.svg" />
                                                 </div>
                                                 <div className="nav-stripe-product-textbox">
                                                     <div className="nav-stripe-product-title">功能大全</div>

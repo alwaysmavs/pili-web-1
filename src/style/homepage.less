@@ -134,9 +134,11 @@
   height: 240px;
   background: #FFFFFF;
   cursor: pointer;
+  opacity: 0.5;
   &:hover{
     /* Rectangle 25: */
     .main-duration;
+    opacity: 1;
     box-shadow: 0 10px 30px 0 rgba(0,0,0,0.15);
     border-radius: 4px;
   }
@@ -189,7 +191,45 @@
   width: 340px;
   height: 210px;
   margin-top: 54px;
+}
+
+
+
+.homepageDIY-line3-cell{
+  width: 100px;
+  height: 40px;
+  /* Rectangle 27: */
+  background: rgba(255,255,255,0.00);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+  opacity: 0.5;
+}
+
+.homepageDIY-line3-one{
   .flex-box-between;
+  width: 250px;
+}
+
+.homepageDIY-line3-two{
+  .flex-box-between;
+  width: 280px;
+  margin-top: 35px;
+}
+
+.homepageDIY-line3-cell2{
+  width: 130px;
+  height: 40px;
+  /* Rectangle 27: */
+  background: rgba(255,255,255,0.00);
+  border: 1px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 40px;
+  opacity: 0.5;
 }
 
 .homepage-check{
@@ -220,12 +260,22 @@
   width: 610px;
   height: 610px;
   float: right;
+  div{
+    width: 298px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .homepageDIY-right-img{
-  height: 610px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  width: 298px;
+}
+
+.homepageDIY-right-img-inner{
+ position: absolute;
+  width: 255px;
+  margin-top: 83px;
+  margin-left: 22px;
 }
 
 .homepageDIY-btn{

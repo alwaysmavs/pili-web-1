@@ -12,6 +12,7 @@ import Rtc from './components/rtc/rtc';
 import About from './components/about/about';
 import Pushsdk from './components/pushsdk/pushsdk';
 import Player from './components/player/player';
+import Document from './components/document/docment';
 
 class Routers extends Component {
     render() {
@@ -28,6 +29,7 @@ class Routers extends Component {
                     <Route path="about" component={About}/>
                     <Route path="pushsdk" component={Pushsdk}/>
                     <Route path="player" component={Player}/>
+                    <Route path="document" component={Document}/>
                 </Route>
             </Router>
         )
