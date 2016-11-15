@@ -19,9 +19,7 @@ class Pushsdk extends Component {
                                 丰富你的直播内容来源。
                             </div>
                             <div className="pushsdk-part1-line4">
-                                高性能的直播推流 SDK，让你的移动应用开启直播的<br/>
-                                眼睛。包体轻盈、功能丰富、轻松定制、快速二次开<br/>
-                                发。
+                                高性能的直播推流 SDK，让你的移动应用开启直播的眼睛。包体轻盈、功能丰富、轻松定制、快速二次开发。
                             </div>
                             <div className="pushsdk-part1-btn">
                                 立即使用

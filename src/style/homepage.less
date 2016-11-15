@@ -50,7 +50,7 @@
 
 
 .homepage-part2{
-  width: 1300px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
@@ -130,11 +130,10 @@
 
 .homepage-part3-box{
   .main-duration;
-  width: 360px;
-  height: 240px;
+  width: 340px;
+  height: 220px;
   background: #FFFFFF;
   cursor: pointer;
-  opacity: 0.5;
   &:hover{
     /* Rectangle 25: */
     .main-duration;
@@ -145,19 +144,20 @@
 }
 
 .homepage-part3-inner{
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
   font-weight: 200;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 30px;
+  margin-right: 30px;
 }
 
 .homepage-part3-title{
-  font-size: 40px;
+  font-size: 24px;
   line-height: 56px;
   font-weight: 200;
   margin-left: 30px;
-  margin-top: 30px;
+  padding-top: 25px;
 }
 
 .homepage-part4{
@@ -455,4 +455,105 @@
   height: 100px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/************************/
+
+@media (max-width:1336px) {
+  .homepage-part1{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 270px;
+    padding-top: 80px;
+  }
+
+  .homepage-part3{
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 182px;
+    .flex-box-between;
+    margin-top: 120px;
+  }
+
+  .homepage-part2{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
+
+  .homepage-part4{
+    width: 960px;
+    height: 610px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
+
+  .homepageDIY-right{
+    width: 500px;
+    height: 610px;
+    float: right;
+    div{
+      width: 298px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .homepage-part5{
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .homepage-part6{
+    width: 960px;
+    height: 360px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    margin-bottom: 160px;
+  }
+
+  .homepageBg-outbox-inner{
+    width: 960px;
+    margin-top: 40px;
+    height: 170px;
+    overflow: hidden;
+  }
+
+  .pili-customer-mask-postion{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .scroll_div {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 150px;
+  }
+
+  .pili-customer-mask {
+
+    /* Rectangle 6: */
+    background-image: linear-gradient(-90deg, #fff 0%, rgba(0, 0, 0, 0.00) 44%, rgba(0, 0, 0, 0.00) 54%, rgba(0, 0, 0, 0.00) 60%, #fff 100%);
+    position: absolute;
+    z-index: 2;
+    margin-top: 130px;
+    width: 960px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

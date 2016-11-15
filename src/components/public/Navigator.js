@@ -141,21 +141,41 @@ class Navigator extends Component {
 
                         <div className="dropdownSection" data-dropdown="developers">
                             <div className="dropdownContent">
-                                <div className="nav-stripe-box3"></div>
+                                <div className="nav-stripe-developers">
+                                    <div className="nav-stripe-product-box">
+                                        <Link to="/document">
+                                            <div className="nav-stripe-product-cell nav-stripe-margin-bottom">
+                                                <div className="nav-stripe-product-imgbox">
+                                                    <img src="http://ofji7fgcp.bkt.clouddn.com/documents.svg" />
+                                                </div>
+                                                <div className="nav-stripe-product-textbox">
+                                                    <div className="nav-stripe-product-title">开发文档</div>
+                                                    <div className="nav-stripe-product-inner">
+                                                        包含直播推流 SDK、连麦互动<br/>
+                                                        SDK 以及播放器 SDK 文档。
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Link>
+
+
+                                        <div className="nav-stripe-product-cell">
+                                            <div className="nav-stripe-product-imgbox">
+                                                <img src="http://ofji7fgcp.bkt.clouddn.com/blog.svg" />
+                                            </div>
+                                            <div className="nav-stripe-product-textbox">
+                                                <div className="nav-stripe-product-title">技术博客</div>
+                                                <div className="nav-stripe-product-inner">
+                                                    技术博客包含直播知识普及，产<br/>
+                                                    品更新以及团队动态。
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div className="dropdownSection" data-dropdown="problem">
-                            <div className="dropdownContent">
-                                <div className="nav-stripe-box3"></div>
-                            </div>
-                        </div>
-
-                        <div className="dropdownSection" data-dropdown="enterprise">
-                            <div className="dropdownContent">
-                                <div className="nav-stripe-box3"></div>
-                            </div>
-                        </div>
 
                     </div>
 

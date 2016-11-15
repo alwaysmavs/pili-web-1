@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import HomepageScene from './homepageScene';
 import HomepageDIY from './homepageDIY';
 import HomepageBg from './homepageBg';
+import { Router, Route, Link } from 'react-router';
 
 var timer;
 
@@ -150,32 +151,37 @@ class Homepage extends Component {
                 </div>
 
                 <div className="homepage-part3">
-                    <div className="homepage-part3-box">
-                        <div className="homepage-part3-title">SDK 功能</div>
-                        <div className="homepage-part3-inner">
-                            我们使用了胶水层开发模式，自定<br/>
-                            义的开放接口，可以不断容纳第三<br/>
-                            方音视频效果。
-                        </div>
-                    </div>
 
-                    <div className="homepage-part3-box">
-                        <div className="homepage-part3-title">开发文档</div>
-                        <div className="homepage-part3-inner">
-                            我们支持了 iOS 以及 Android 的<br/>
-                            直播推流以及播放，更加便捷给予<br/>
-                            更多端的不同版本。
+                    <Link to="/character">
+                        <div className="homepage-part3-box">
+                            <div className="homepage-part3-title">SDK 功能</div>
+                            <div className="homepage-part3-inner">
+                                我们使用了胶水层开发模式，自定义的开放接口，可以不断容纳第三方音视频效果。
+                            </div>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="homepage-part3-box">
-                        <div className="homepage-part3-title">企业服务</div>
-                        <div className="homepage-part3-inner">
-                            为了让足够好用的直播惠及更多的<br/>
-                            客户，应对不断变化的市场需求，<br/>
-                            我们提供定制化的企业服务。
+                    <Link to="/document">
+                        <div className="homepage-part3-box">
+                            <div className="homepage-part3-title">开发文档</div>
+                            <div className="homepage-part3-inner">
+                                我们支持了 iOS 以及 Android 的直播推流以及播放，更加便捷给予更多端的不同版本。
+                            </div>
                         </div>
-                    </div>
+                    </Link>
+
+                    <Link to="/enterprise">
+                        <div className="homepage-part3-box">
+                            <div className="homepage-part3-title">企业服务</div>
+                            <div className="homepage-part3-inner">
+                                为了惠及更多的客户，应对不断变化的市场需求，
+                                我们提供定制化的企业服务。
+                            </div>
+                        </div>
+                    </Link>
+
+
+
                 </div>
 
                 <div className="homepage-part4">

@@ -8,7 +8,7 @@ class HomepageScene extends Component {
 
         switch (id){
             case 1:
-                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E7%A4%BE%E4%BA%A4@2x.png";
+                { this.refs.sceneImg.src = "http://ofji7fgcp.bkt.clouddn.com/%E7%A4%BE%E4%BA%A4.png";
                 };
                 break;
             case 2:

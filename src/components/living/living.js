@@ -42,9 +42,7 @@ class Living extends Component {
                         <div className="living-part3-midbox">
                             <div className="living-part3-box-title">直播</div>
                             <div className="living-part3-box-text">
-                                支持实时 RTMP 推流直播及<br/>
-                                RTMP、FLV 格式观看，延迟 2.5s<br/>
-                                以内，同时支持录屏和混音。
+                                支持实时 RTMP 推流直播及RTMP、FLV 格式观看，延迟 2.5s 以内，同时支持录屏和混音。
                             </div>
                         </div>
                     </div>
@@ -52,9 +50,7 @@ class Living extends Component {
                         <div className="living-part3-midbox">
                             <div className="living-part3-box-title">互动</div>
                             <div className="living-part3-box-text">
-                                嵌入多维度互动模块，例如点赞、<br/>
-                                互动消息、基于人脸识别的动态表情效<br/>
-                                果以及常用的送礼系统等等。
+                                嵌入多维度互动模块，例如点赞、互动消息、基于人脸识别的动态表情效果以及常用的送礼系统等等。
                             </div>
                         </div>
                     </div>
@@ -62,9 +58,7 @@ class Living extends Component {
                         <div className="living-part3-midbox">
                             <div className="living-part3-box-title">开源</div>
                             <div className="living-part3-box-text">
-                                为了方便零基础的开发者进行参考和<br/>
-                                评估，我们开放了直播 App 实现源<br/>
-                                码，希望你喜欢。
+                                为了方便零基础的开发者进行参考和评估，我们开放了直播 App 实现源码，希望你喜欢。
                             </div>
                             <div className="living-part3-box-btn">
                                 查看开源代码

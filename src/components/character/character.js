@@ -29,33 +29,34 @@ class Character extends Component {
 
                     <div className="character-part2-line">
                         <div className="character-part2-left">
+                            <div className="character-part2-right">
+                                <img className="character-part2-img1" src="http://ofji7fgcp.bkt.clouddn.com/rtc.svg" />
+                            </div>
                             <div className="character-part2-title">连麦互动</div>
                             <div className="character-part2-inner">弹幕、私信，以及更多更快速的 IM 方案集成。</div>
-                            <div className="character-part2-btn">了解连麦互动 RTC</div>
                         </div>
-                        <div className="character-part2-right">
-                            <img src="http://ofji7fgcp.bkt.clouddn.com/rtc.svg" />
-                        </div>
+                        <div className="character-part2-btn">了解连麦互动 RTC</div>
                     </div>
 
                     <div className="character-part2-line">
                         <div className="character-part2-left">
+                            <div className="character-part2-right">
+                                <img className="character-part2-img2" src="http://ofji7fgcp.bkt.clouddn.com/message.svg" />
+                            </div>
                             <div className="character-part2-title">消息互动</div>
                             <div className="character-part2-inner">弹幕、私信，以及更多更快速的 IM 方案集成。</div>
                         </div>
-                        <div className="character-part2-right">
-                            <img src="http://ofji7fgcp.bkt.clouddn.com/message.svg" />
-                        </div>
                     </div>
 
                     <div className="character-part2-line">
                         <div className="character-part2-left">
+                            <div className="character-part2-right">
+                                <img className="character-part2-img3" src="http://ofji7fgcp.bkt.clouddn.com/beaty.svg" />
+                            </div>
                             <div className="character-part2-title">美颜滤镜</div>
                             <div className="character-part2-inner">主播端画面加入各种滤镜效果，十分逼真优秀的美颜效果</div>
                         </div>
-                        <div className="character-part2-right">
-                            <img src="http://ofji7fgcp.bkt.clouddn.com/beaty.svg" />
-                        </div>
+
                     </div>
                 </div>
 

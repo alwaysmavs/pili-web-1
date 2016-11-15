@@ -1,3 +1,7 @@
+
+
+/*********************************************/
+
 .document-part1-bg{
   width: 100%;
   height: 600px;
@@ -15,6 +19,8 @@
   .flex-box-between
 }
 
+
+
 .document-part1-title{
   /* 开发者第一: */
   font-size: 40px;
@@ -29,24 +35,25 @@
   color: #000000;
   line-height: 32px;
   padding-top: 18px;
+  width: 480px;
 }
+
+
 
 
 .document-part2{
   width: 1080px;
-  height: 400px;
-  background-color: green;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 
 .document-part2-line1{
-  .flex-box-between
+  .flex-box-between;
+  padding-top: 80px;
 }
 
 .document-part2-cell1{
   .flex-box-between;
-  background-color: yellow;
 }
 
 
@@ -56,7 +63,112 @@
   margin-top: 50px;
 }
 
+.document-part2-title1{
+  line-height: 60px;
+  font-weight: 200;
+
+  /* 播放器 SDK: */
+  font-size: 32px;
+  color: #000000;
+  letter-spacing: 0.88px;
+}
+
+.document-part2-inner{
+  /* 开发文档: */
+  font-size: 18px;
+  color: #6E6E6E;
+  line-height: 40px;
+  font-weight: 200;
+}
+
+.document-part2-img{
+  img{
+    width: 60px;
+    padding-right: 20px;
+  }
+}
+
+.document-part2-cell1{
+  padding-right: 40px;
+  width: 290px;
+}
+
+.document-part2-cell{
+  padding-right: 40px;
+  width: 240px;
+}
+
+.document-part2-title{
+  font-weight: 200;
+  /* iOS 播放器 SDK: */
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0.66px;
+  margin-bottom: 18px;
+}
+
+.document-part3{
+  .flex-box-between;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  margin-bottom: 180px;
+}
+
+.document-part3-title{
+  /* 博客: */
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0.66px;
+  font-weight: 200;
+}
+
+.document-part3-inner{
+  /* 产品动态、直播知识: */
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0.49px;
+  line-height: 31px;
+  font-weight: 200;
+  margin-top: 16px;
+}
+
+.document-part3-cutline{
+  width: 1px;
+  height: 65px;
+  background-color: black;
+  opacity: 0.2;
+  margin-top: 10px;
+}
+
 /********************************/
+
+@media (max-width:1336px) {
+  .document-part1{
+    width: 960px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    .flex-box-between
+  }
+
+  .document-part1-inner{
+    /* 我们认为，直播技术最终是一个根植于代码的: */
+    font-size: 18px;
+    color: #000000;
+    line-height: 32px;
+    padding-top: 18px;
+    width: 400px;
+  }
+
+  .document-part2{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 
 /*
  * I made up an icosahedron with only css triangles

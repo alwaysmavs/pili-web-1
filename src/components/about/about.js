@@ -23,7 +23,7 @@ class About extends Component {
         function init() {
 
             container = document.createElement( 'div' );
-            document.getElementById("test").appendChild( container );
+            document.getElementById("about-canvas").appendChild( container );
             console.log(document.body)
             if(container) {
                 container.className += container.className ? ' waves' : 'waves';
@@ -130,7 +130,7 @@ class About extends Component {
                         改善了人与人相处的方式，<br/>
                         这便是我们在做的事。
                     </div>
-                    <div className="about-part1-img" id="test">
+                    <div className="about-part1-img" id="about-canvas">
 
                     </div>
                 </div>

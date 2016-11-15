@@ -13,11 +13,11 @@ class Rtc extends Component {
                                 让你的产品更热闹。
                             </div>
                             <div className="rtc-part1-inner">
-                                Pili 的连麦方案在不改变原有的推流&拉流工作流程的<br/>
-                                基础上，提供了简单易用的连麦对讲功能。该方案主要<br/>
-                                包括连麦服务端和客户端两个部分，其中，连麦服务端<br/>
-                                主要提供了房间管理、权限验证、信令和媒体数据转发<br/>
-                                等功能，客户端则提供了媒体数据的采集、编码、传<br/>
+                                Pili 的连麦方案在不改变原有的推流&拉流工作流程的
+                                基础上，提供了简单易用的连麦对讲功能。该方案主要
+                                包括连麦服务端和客户端两个部分，其中，连麦服务端
+                                主要提供了房间管理、权限验证、信令和媒体数据转发
+                                等功能，客户端则提供了媒体数据的采集、编码、传
                                 输、显示等功能。
                             </div>
                             <div className="rtc-part1-btn">立即使用</div>
@@ -91,15 +91,13 @@ class Rtc extends Component {
                         <div className="rtc-part3-line">
                             <div className="rtc-part3-line-title">如何优化带宽占用？</div>
                             <div className="rtc-part3-line-inner">
-                                不需要，任何支持 RTMP/HLS 协议的媒体播放器均可播<br/>
-                                放。
+                                不需要，任何支持 RTMP/HLS 协议的媒体播放器均可播放。
                             </div>
                         </div>
                         <div className="rtc-part3-line">
                             <div className="rtc-part3-line-title">推流是否也必须加入“连麦房间”？</div>
                             <div className="rtc-part3-line-inner">
-                                可以的，主播推流的画面是在客户端合流后推到服务器的，<br/>
-                                因此，存储的时候，是有合流画面的。
+                                可以的，主播推流的画面是在客户端合流后推到服务器的，因此，存储的时候，是有合流画面的。
                             </div>
                         </div>
                     </div>
@@ -111,15 +109,14 @@ class Rtc extends Component {
                         </div>
                         <div className="rtc-part3-line">
                             <div className="rtc-part3-line-title">普通观众端是否需要专用的播放器？</div>
-                            <div className="rtc-part3-line-inner">不需要，任何支持 RTMP/HLS 协议的媒体播放器均可播<br/>
-                                放。
+                            <div className="rtc-part3-line-inner">
+                                不需要，任何支持 RTMP/HLS 协议的媒体播放器均可播放。
                             </div>
                         </div>
                         <div className="rtc-part3-line">
                             <div className="rtc-part3-line-title">点播回放是否也能看到连麦画面？</div>
                             <div className="rtc-part3-line-inner">
-                                可以的，主播推流的画面是在客户端合流后推到服务器的，<br/>
-                                因此，存储的时候，是有合流画面的。
+                                可以的，主播推流的画面是在客户端合流后推到服务器的，因此，存储的时候，是有合流画面的。
                             </div>
                         </div>
                         <div className="rtc-part3-line">

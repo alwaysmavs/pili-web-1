@@ -13,10 +13,10 @@ class Document extends Component {
                             <div className="document-part1-cell">
                                 <div className="document-part1-title">开发者第一</div>
                                 <div className="document-part1-inner">
-                                    我们认为，直播技术最终是一个根植于代码的问题，我们<br/>
-                                    痴迷寻求优雅，可组合的抽象，能够提供可靠的，可扩展<br/>
-                                    的，灵活的直播集成。因为我们消除了不必要的复杂性和<br/>
-                                    无关的细节，你可以在短短的几小时内基于 Pili SDK 实<br/>
+                                    我们认为，直播技术最终是一个根植于代码的问题，我们
+                                    痴迷寻求优雅，可组合的抽象，能够提供可靠的，可扩展
+                                    的，灵活的直播集成。因为我们消除了不必要的复杂性和
+                                    无关的细节，你可以在短短的几小时内基于 Pili SDK 实
                                     现你的直播应用。
                                 </div>
                             </div>
@@ -64,24 +64,110 @@ class Document extends Component {
                             <div className="document-part2-img">
                                 <img src="http://ofji7fgcp.bkt.clouddn.com/player.svg" />
                             </div>
-                            <div className="document-part2-title">
-                                播放器 SDK
+                            <div className="document-part2-title1">
+                                播放器 SDK &nbsp;&nbsp;&nbsp;&nbsp;
                             </div>
                         </div>
                         <div className="document-part2-cell">
                             <div className="document-part2-title">iOS 播放器 SDK</div>
+                            <div className="document-part2-inner">
+                                <a href="https://alwaysmavs.gitbooks.io/plplayerkit/content/">
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">API 文档</div>
+                            <div className="document-part2-inner">SDK 下载</div>
+                        </div>
+                        <div className="document-part2-cell">
+                            <div className="document-part2-title">Android 播放器 SDK</div>
+                            <div className="document-part2-inner">
+                                <a href="https://alwaysmavs.gitbooks.io/pldroidplayer/content/">
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">API 文档</div>
+                            <div className="document-part2-inner">SDK 下载</div>
+                        </div>
+                    </div>
+
+                    <div className="document-part2-line1">
+                        <div className="document-part2-cell1">
+                            <div className="document-part2-img">
+                                <img src="http://ofji7fgcp.bkt.clouddn.com/streaming.svg" />
+                            </div>
+                            <div className="document-part2-title1">
+                                推流 SDK &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </div>
+                        </div>
+                        <div className="document-part2-cell">
+                            <div className="document-part2-title">iOS 推流 SDK</div>
+                            <div className="document-part2-inner">
+                                <a href="https://alwaysmavs.gitbooks.io/plmediastreamingkit/content/">
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">API 文档</div>
+                            <div className="document-part2-inner">SDK 下载</div>
+                        </div>
+                        <div className="document-part2-cell">
+                            <div className="document-part2-title">Android 推流 SDK</div>
+                            <div className="document-part2-inner">
+                                <a href="https://alwaysmavs.gitbooks.io/androidpush/content/">
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">API 文档</div>
+                            <div className="document-part2-inner">SDK 下载</div>
+                        </div>
+                    </div>
+
+                    <div className="document-part2-line1">
+                        <div className="document-part2-cell1">
+                            <div className="document-part2-img">
+                                <img src="http://ofji7fgcp.bkt.clouddn.com/lianmai.svg" />
+                            </div>
+                            <div className="document-part2-title1">
+                                连麦互动 SDK
+                            </div>
+                        </div>
+                        <div className="document-part2-cell">
+                            <div className="document-part2-title">iOS 连麦互动 SDK</div>
                             <div className="document-part2-inner">开发文档</div>
                             <div className="document-part2-inner">API 文档</div>
                             <div className="document-part2-inner">SDK 下载</div>
                         </div>
                         <div className="document-part2-cell">
-                            <div>Android 播放器 SDK</div>
-                            <div>开发文档</div>
-                            <div>API 文档</div>
-                            <div>SDK 下载</div>
+                            <div className="document-part2-title">Android 连麦互动 SDK</div>
+                            <div className="document-part2-inner">开发文档</div>
+                            <div className="document-part2-inner">API 文档</div>
+                            <div className="document-part2-inner">SDK 下载</div>
                         </div>
                     </div>
                 </div>
+
+                <div className="document-part3">
+
+                    <div className="document-part3-cell">
+                        <div className="document-part3-title">博客</div>
+                        <div className="document-part3-inner">产品动态、直播知识</div>
+                    </div>
+
+                    <div className="document-part3-cutline"></div>
+
+                    <div className="document-part3-cell">
+                        <div className="document-part3-title">常见问题</div>
+                        <div className="document-part3-inner">关于 SDK 的常见问题</div>
+                    </div>
+
+                    <div className="document-part3-cutline"></div>
+
+                    <div className="document-part3-cell">
+                        <div className="document-part3-title">联系我们</div>
+                        <div className="document-part3-inner">产品使用、销售</div>
+                    </div>
+
+                </div>
+
             </div>
         )
     }
