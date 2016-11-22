@@ -5,9 +5,6 @@ import Apply from './apply';
 
 
 class Contact extends Component {
-    componentWillMount() {
-
-    }
 
     componentDidMount() {
         baiduMap();

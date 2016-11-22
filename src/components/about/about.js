@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
-require('../../three.js');
+import React, {Component} from 'react';
+import {render} from 'react-dom';
 class About extends Component {
 
-    componentWillMount(){
 
-    }
-
-    componentDidMount(){
+    componentDidMount() {
 
 
         var SEPARATION = 40, AMOUNTX = 130, AMOUNTY = 35;
@@ -18,23 +14,20 @@ class About extends Component {
 
         var particles, particle, count = 0;
 
-        //var myWidth= window.innerWidth;
-        //var myHeight= window.innerHeight;
-
 
         init();
         animate();
 
         function init() {
 
-            container = document.createElement( 'div' );
-            document.getElementById("about-canvas").appendChild( container );
+            container = document.createElement('div');
+            document.getElementById("about-canvas").appendChild(container);
             console.log(document.body)
-            if(container) {
+            if (container) {
                 container.className += container.className ? ' waves' : 'waves';
             }
 
-            camera = new THREE.PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 1, 10000 );
+            camera = new THREE.PerspectiveCamera(120, window.innerWidth / window.innerHeight, 1, 10000);
             camera.position.y = 150; //changes how far back you can see i.e the particles towards horizon
             camera.position.z = 300; //This is how close or far the particles are seen
 
@@ -45,57 +38,56 @@ class About extends Component {
             particles = new Array();
 
             var PI2 = Math.PI * 2;
-            var material = new THREE.SpriteCanvasMaterial( {
+            var material = new THREE.SpriteCanvasMaterial({
 
                 color: 0x939393, //changes color of particles
-                program: function ( context ) {
+                program: function (context) {
 
                     context.beginPath();
-                    context.arc( 0, 0, 0.1, 0, PI2, true );
+                    context.arc(0, 0, 0.1, 0, PI2, true);
                     context.fill();
 
                 }
 
-            } );
+            });
 
             var i = 0;
 
-            for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+            for (var ix = 0; ix < AMOUNTX; ix++) {
 
-                for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+                for (var iy = 0; iy < AMOUNTY; iy++) {
 
-                    particle = particles[ i ++ ] = new THREE.Sprite( material );
+                    particle = particles[i++] = new THREE.Sprite(material);
                     particle.position.x = ix * SEPARATION - ( ( AMOUNTX * SEPARATION ) / 2 );
                     particle.position.z = iy * SEPARATION - ( ( AMOUNTY * SEPARATION ) - 10 );
-                    scene.add( particle );
+                    scene.add(particle);
 
                 }
 
             }
 
             renderer = new THREE.CanvasRenderer();
-            renderer.setSize( window.innerWidth, window.innerHeight );
-            renderer.setClearColor( 0xffffff, 1);
-            container.appendChild( renderer.domElement );
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setClearColor(0xffffff, 1);
+            container.appendChild(renderer.domElement);
 
-            window.addEventListener( 'resize', onWindowResize, false );
+            window.addEventListener('resize', onWindowResize, false);
 
         }
 
         function onWindowResize() {
 
 
-
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
 
-            renderer.setSize( window.innerWidth , window.innerHeight );
+            renderer.setSize(window.innerWidth, window.innerHeight);
 
         }
 
         function animate() {
 
-            requestAnimationFrame( animate );
+            requestAnimationFrame(animate);
 
             render();
 
@@ -105,19 +97,19 @@ class About extends Component {
 
             var i = 0;
 
-            for ( var ix = 0; ix < AMOUNTX; ix ++ ) {
+            for (var ix = 0; ix < AMOUNTX; ix++) {
 
-                for ( var iy = 0; iy < AMOUNTY; iy ++ ) {
+                for (var iy = 0; iy < AMOUNTY; iy++) {
 
-                    particle = particles[ i++ ];
-                    particle.position.y = ( Math.sin( ( ix + count ) * 0.5 ) * 20 ) + ( Math.sin( ( iy + count ) * 0.5 ) * 20 );
-                    particle.scale.x = particle.scale.y = ( Math.sin( ( ix + count ) * 0.3 ) + 2 ) * 4 + ( Math.sin( ( iy + count ) * 0.5 ) + 1 ) * 4;
+                    particle = particles[i++];
+                    particle.position.y = ( Math.sin(( ix + count ) * 0.5) * 20 ) + ( Math.sin(( iy + count ) * 0.5) * 20 );
+                    particle.scale.x = particle.scale.y = ( Math.sin(( ix + count ) * 0.3) + 2 ) * 4 + ( Math.sin(( iy + count ) * 0.5) + 1 ) * 4;
 
                 }
 
             }
 
-            renderer.render( scene, camera );
+            renderer.render(scene, camera);
 
             // This increases or decreases speed
             count += 0.2;
@@ -149,7 +141,7 @@ class About extends Component {
                         <div className="about-part2-member">
                             <div className="about-part2-memberbox">
                                 <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png" />
+                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
                                 </div>
                                 <div className="about-part2-member-name">XU Li</div>
                                 <div className="about-part2-member-title">Product Owner</div>
@@ -157,7 +149,7 @@ class About extends Component {
 
                             <div className="about-part2-memberbox">
                                 <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png" />
+                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
                                 </div>
                                 <div className="about-part2-member-name">XU Li</div>
                                 <div className="about-part2-member-title">Product Owner</div>
@@ -165,7 +157,7 @@ class About extends Component {
 
                             <div className="about-part2-memberbox">
                                 <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png" />
+                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
                                 </div>
                                 <div className="about-part2-member-name">XU Li</div>
                                 <div className="about-part2-member-title">Product Owner</div>
@@ -173,7 +165,7 @@ class About extends Component {
 
                             <div className="about-part2-memberbox">
                                 <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png" />
+                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
                                 </div>
                                 <div className="about-part2-member-name">XU Li</div>
                                 <div className="about-part2-member-title">Product Owner</div>
