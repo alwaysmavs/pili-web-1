@@ -19,8 +19,12 @@ class Footer extends Component {
                         <div>
                             <Link to="/price">价格</Link>
                         </div>
-                        <div>开发文档</div>
-                        <div>常见问题</div>
+                        <div>
+                            <Link to="/document">开发文档</Link>
+                        </div>
+                        <div>
+                            <a href="https://pili.kf5.com/hc/">常见问题</a>
+                        </div>
                 </div>
                 <div className="footer-bottom">
                     <a href="http://www.qiniu.com">

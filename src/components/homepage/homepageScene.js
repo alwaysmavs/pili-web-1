@@ -10,8 +10,6 @@ class HomepageScene extends Component {
 
     componentDidMount(){
 
-        require("../../unslider-min");
-
         $('.fading-slider').unslider({
             animation: 'fade',
             autoplay: true,

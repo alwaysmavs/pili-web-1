@@ -3,6 +3,13 @@ import { render } from 'react-dom';
 import { Router, Route, Link } from 'react-router';
 
 class Navigator extends Component {
+
+
+    componentWillMount(){
+        require("../../navAnimated");
+    }
+
+
     render() {
 
         return (
