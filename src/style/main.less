@@ -13,42 +13,48 @@
 @import "unslider";
 
 // font kit
+.font-72 {
+  font-size: 72px;
+}
 
-.font-46{
+.font-46 {
   font-size: 46px;
 }
 
-.font-38{
+.font-38 {
   font-size: 38px;
 }
 
-.font-28{
+.font-28 {
   font-size: 28px;
 }
 
-.font-24{
+.font-24 {
   font-size: 24px;
 }
 
-.font-20{
+.font-20 {
   font-size: 20px;
 }
 
-.font-18{
+.font-18 {
   font-size: 18px;
 }
 
-.font-16{
+.font-16 {
   font-size: 16px;
 }
 
-.font-12{
+.font-12 {
   font-size: 12px;
 }
 
+@font-light: 300;
+
+
 //公有样式
 
-.flex-box-center{
+.flex-box-center {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: center;
@@ -75,69 +81,67 @@
   -o-transition-timing-function: ease-in-out;
 }
 
-
-.button-style{
+.button-style {
   .font-18;
   cursor: pointer;
   text-align: center;
+  background: rgba(0, 0, 0, 0.00);
+  border: 1px solid #000000;
   .main-duration;
-  &:hover{
+  &:hover {
     .main-duration;
     .button-active
   }
 }
 
-.flex-box-between{
+.flex-box-between {
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
-  font-family: BlinkMacSystemFont,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Hiragino Sans GB,Microsoft Yahei,Microsoft Jhenghei,sans-serif;;
+  font-family: BlinkMacSystemFont, Helvetica Neue, Helvetica, Roboto, Arial, PingFang SC, Hiragino Sans GB, Microsoft Yahei, Microsoft Jhenghei, sans-serif;;
 }
 
-
-select{
-  outline:none;
+select {
+  outline: none;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
   outline: none;
   color: black;
 }
 
-textarea{
-  outline:none;
-  -webkit-appearance:none;
+textarea {
+  outline: none;
+  -webkit-appearance: none;
   resize: none;
 }
 
-.float-clear{
+.float-clear {
   clear: both;
 }
 
-.cutline{
+.cutline {
   width: 100%;
   height: 1px;
   background-color: #E6E9F0;
 }
 
-.text-cut{
+.text-cut {
   text-decoration: line-through;
   color: #B0B0B0;
 }
 
-
-
-#about-canvas{
-  canvas{
-    top:0;
-    left:0;
+#about-canvas {
+  canvas {
+    top: 0;
+    left: 0;
     z-index: -1;
     position: absolute;
     margin-top: -160px;

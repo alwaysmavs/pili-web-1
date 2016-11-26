@@ -7,11 +7,11 @@
   padding-top: 80px;
 }
 
-.rtc-part1-img{
+.rtc-part1-img {
   width: 540px;
 }
 
-.rtc-part1{
+.rtc-part1 {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -19,43 +19,28 @@
   margin-top: 160px;
 }
 
-.rtc-part1-title{
-  font-weight: 300;
-  /* 连麦互动， 让你的产品更热闹。: */
-  font-size: 40px;
-  color: #000000;
-  letter-spacing: 1.1px;
+.rtc-part1-title {
+  .font-38;
   margin-top: 90px;
 }
 
-.rtc-part1-inner{
-  font-weight: 200;
-  /* Pili 的连麦方案在不改变原有的推流&: */
-  font-size: 20px;
-  color: #4D4D4D;
-  letter-spacing: 0px;
+.rtc-part1-inner {
+  .font-18;
   line-height: 36px;
   margin-top: 15px;
   width: 500px;
 }
 
-.rtc-part1-btn{
+.rtc-part1-btn {
   width: 140px;
   height: 60px;
-  /* Rectangle 2: */
-  background: rgba(0,0,0,0.00);
-  border: 1px solid #000000;
-  /* 立即使用: */
-  text-align: center;
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 1.5px;
+  .font-18;
   line-height: 60px;
   margin-top: 40px;
   .button-style
 }
 
-.rtc-part2{
+.rtc-part2 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -64,70 +49,57 @@
   height: 900px;
 }
 
-.rtc-part2-midbox{
-   width: 1200px;
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 120px;
- }
-
-.rtc-part2-action{
-  font-weight: 200;
-  /* 功能: */
-  font-size: 24px;
-  color: #000000;
-  letter-spacing: 0.66px;
+.rtc-part2-midbox {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
 }
 
-.rtc-part2-title{
-  /* 完善的功能，多样的互动。: */
-  font-size: 40px;
-  color: #000000;
-  letter-spacing: 1.1px;
+.rtc-part2-action {
+  .font-24;
+}
+
+.rtc-part2-title {
+  .font-38;
   margin-top: 14px;
 }
 
-.rtc-part2-inner{
-  /* Pili 的连麦方案在不改变原有的推流&: */
-  font-size: 20px;
-  color: #4D4D4D;
-  letter-spacing: 0px;
+.rtc-part2-inner {
+  .font-20;
   line-height: 36px;
   margin-top: 22px;
-  font-weight: 200;
 }
 
-
-.rtc-part2-list{
+.rtc-part2-list {
   margin-top: 63px;
   width: 1100px;
   height: 340px;
   .flex-box-between;
   /* Rectangle 20: */
-  background: #FFFFFF;
   border: 1px solid #E6E6E6;
-  box-shadow: 0px 32px 88px 0px rgba(0,0,0,0.07);
+  box-shadow: 0px 32px 88px 0px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 200;
+  .font-16;
 }
 
 .rtc-part2-line {
   width: 33.3%;
   padding-top: 20px;
-  div{
+  div {
     width: 100px;
     margin-left: auto;
     margin-right: auto;
     line-height: 100px;
-    img{
+    img {
       padding-right: 10px;
     }
   }
 }
 
-.rtc-part3{
+.rtc-part3 {
   margin-top: 160px;
   margin-bottom: 160px;
   width: 1200px;
@@ -137,122 +109,73 @@
   .flex-box-between;
 }
 
-.rtc-part3-left{
+.rtc-part3-left {
   width: 500px;
 }
 
-.rtc-part3-title{
-  font-weight: 200;
-  /* 常见问题: */
-  font-size: 40px;
-  color: #000000;
-  letter-spacing: 1.1px;
+.rtc-part3-title {
+  .font-38;
   margin-top: 30px;
 }
 
 .rtc-part3-btn {
   height: 60px;
   width: 230px;
-  /* Rectangle 2: */
-  background: rgba(0,0,0,0.00);
-  border: 1px solid #000000;
-  /* 关于连麦更多问题: */
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 1.5px;
   line-height: 60px;
-  text-align: center;
-  font-weight: 300;
   margin-top: 40px;
   margin-bottom: 88px;
+  .button-style;
 }
 
-.rtc-part3-line{
+.rtc-part3-line {
   margin-top: 45px;
   margin-bottom: 45px;
 }
 
-.rtc-part3-line-title{
+.rtc-part3-line-title {
   /* 如何优化带宽占用？: */
   font-size: 18px;
   color: #000000;
 }
 
-.rtc-part3-line-inner{
-  /* 不需要，任何支持 RTMP/HLS 协议: */
-  font-size: 18px;
+.rtc-part3-line-inner {
   color: #6F6F6F;
-  line-height: 32px;
-  font-weight: 200;
+  .font-18;
+  font-weight: 300;
   margin-top: 7px;
   width: 520px;
 }
 
-/************************************************/
+/*********************** 最大宽度是 1336 px *************************/
 
-@media (max-width:1336px) {
-  .rtc-part1{
+@media (max-width: 1336px) {
+  .rtc-part1 {
     width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    .flex-box-between;
-    margin-top: 160px;
   }
-  .rtc-part1-inner{
-    font-weight: 200;
-    /* Pili 的连麦方案在不改变原有的推流&: */
-    font-size: 20px;
-    color: #4D4D4D;
-    letter-spacing: 0px;
-    line-height: 36px;
-    margin-top: 15px;
+
+  .rtc-part1-inner {
     width: 400px;
   }
 
-  .rtc-part1-img{
+  .rtc-part1-img {
     width: 450px;
     margin-top: 40px;
   }
 
-  .rtc-part2-midbox{
+  .rtc-part2-midbox {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 120px;
   }
 
-  .rtc-part2-list{
-    margin-top: 63px;
+  .rtc-part2-list {
     width: 860px;
-    height: 340px;
-    .flex-box-between;
-    /* Rectangle 20: */
-    background: #FFFFFF;
-    border: 1px solid #E6E6E6;
-    box-shadow: 0px 32px 88px 0px rgba(0,0,0,0.07);
-    border-radius: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 200;
   }
 
-  .rtc-part3{
-    margin-top: 160px;
-    margin-bottom: 160px;
+  .rtc-part3 {
     width: 960px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    .flex-box-between;
   }
 
-  .rtc-part3-line-inner{
-    /* 不需要，任何支持 RTMP/HLS 协议: */
-    font-size: 18px;
-    color: #6F6F6F;
-    line-height: 32px;
-    font-weight: 200;
-    margin-top: 7px;
+  .rtc-part3-line-inner {
     width: 400px;
   }
+
 }
