@@ -1,57 +1,53 @@
-import React, { Component } from 'react';
-import { render } from 'react-dom';
+import React, {Component} from 'react';
+import {render} from 'react-dom';
 import HomepageScene from './homepageScene';
 import HomepageDIY from './homepageDIY';
 import HomepageBg from './homepageBg';
-import { Router, Route, Link } from 'react-router';
+import {Router, Route, Link} from 'react-router';
 
 var timer;
 
 class Homepage extends Component {
 
-    setTimer(e){
+    setTimer(e) {
         timer = e;
     }
 
-    componentDidMount(){
+    componentDidMount() {
 
         // 文字翻动
         var words = document.getElementsByClassName('word');
         var wordArray = [];
         var currentWord = 0;
-
         words[currentWord].style.opacity = 1;
         for (var i = 0; i < words.length; i++) {
             splitLetters(words[i]);
         }
-
         function changeWord() {
             var cw = wordArray[currentWord];
 
-            var nw = currentWord == words.length-1 ? wordArray[0] : wordArray[currentWord+1];
+            var nw = currentWord == words.length - 1 ? wordArray[0] : wordArray[currentWord + 1];
             for (var i = 0; i < cw.length; i++) {
                 animateLetterOut(cw, i);
             }
-
             for (var i = 0; i < nw.length; i++) {
                 nw[i].className = 'letter behind';
                 nw[0].parentElement.style.opacity = 1;
                 animateLetterIn(nw, i);
             }
-
-            currentWord = (currentWord == wordArray.length-1) ? 0 : currentWord+1;
+            currentWord = (currentWord == wordArray.length - 1) ? 0 : currentWord + 1;
         }
 
         function animateLetterOut(cw, i) {
-            setTimeout(function() {
+            setTimeout(function () {
                 cw[i].className = 'letter out';
-            }, i*80);
+            }, i * 80);
         }
 
         function animateLetterIn(nw, i) {
-            setTimeout(function() {
+            setTimeout(function () {
                 nw[i].className = 'letter in';
-            }, 340+(i*80));
+            }, 340 + (i * 80));
         }
 
         function splitLetters(word) {
@@ -65,7 +61,6 @@ class Homepage extends Component {
                 word.appendChild(letter);
                 letters.push(letter);
             }
-
             wordArray.push(letters);
         }
 
@@ -74,21 +69,16 @@ class Homepage extends Component {
 
         this.setTimer(timer);
 
+
         // 数字滚动
-
         var numUp = true;
-
         $(window).scroll(function () {
-
             var scrollBottom = $(document).height() - $(window).height() - $(window).scrollTop();
-
             if (scrollBottom <= 620) {
                 if (numUp) {
-
                     $('.pili-innerbox-num').each(function () {
                         var $this = $(this),
                             countTo = $this.attr('data-count');
-
                         $({countNum: $this.text()}).animate({
                                 countNum: countTo
                             },
@@ -100,21 +90,17 @@ class Homepage extends Component {
                                 },
                                 complete: function () {
                                     $this.text(this.countNum);
-                                    //alert('finished');
                                 }
                             });
                     });
-
                     numUp = false;
                 }
-
             }
-
         });
     }
 
 
-    componentWillUnmount(){
+    componentWillUnmount() {
         clearInterval(timer);
     }
 
@@ -181,7 +167,6 @@ class Homepage extends Component {
                     </Link>
 
 
-
                 </div>
 
                 <div className="homepage-part4">
@@ -241,7 +226,6 @@ class Homepage extends Component {
         )
     }
 }
-
 
 
 export default Homepage;

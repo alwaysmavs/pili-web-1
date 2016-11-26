@@ -5,7 +5,7 @@ class HomepageScene extends Component {
 
 
     componentWillMount(){
-        require("../../unslider-min");
+        require("../../Plugins/unslider");
     }
 
     componentDidMount(){

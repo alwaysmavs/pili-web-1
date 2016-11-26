@@ -16,8 +16,6 @@ class HomepageBg extends Component {
             else
                 scroll_div.scrollLeft++
         }
-
-
         setInterval(Marquee, speed);
     }
 
@@ -27,7 +25,6 @@ class HomepageBg extends Component {
 
         let bgCustomerList = bgCustomer.map(
             function(data){
-
                 return(
                     <li  key={data.customerId}>
                        <img  src={data.customerImg} />

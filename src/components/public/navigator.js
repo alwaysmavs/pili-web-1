@@ -6,7 +6,7 @@ class Navigator extends Component {
 
 
     componentWillMount(){
-        require("../../navAnimated");
+        require("../../Plugins/navAnimated");
     }
 
 

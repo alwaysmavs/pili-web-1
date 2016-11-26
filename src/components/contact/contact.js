@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { baiduMap } from '../../unit';
+import { baiduMap } from '../../Plugins/baiduMap';
 import Apply from './apply';
 
 

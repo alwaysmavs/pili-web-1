@@ -1,13 +1,18 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Faq from '../public/faq';
+import Doc from '../public/doc';
 import FeatureList from '../public/featureList';
 import { RTC_FEATURELIST } from '../../constants/featureListData';
+import { RTC_FAQ } from '../../constants/faqData';
+import { RTC_DOC } from '../../constants/docData';
 
 class Rtc extends Component {
     render() {
 
         let featureArray = RTC_FEATURELIST;
+        let faqData = RTC_FAQ;
+        let docData = RTC_DOC;
 
         return (
             <div className="rtc-outbox">
@@ -45,7 +50,8 @@ class Rtc extends Component {
                         <FeatureList featureArray={ featureArray } />
                     </div>
                 </div>
-                <Faq/>
+                <Faq faqData={faqData} />
+                <Doc docData={docData} />
             </div>
 
         )

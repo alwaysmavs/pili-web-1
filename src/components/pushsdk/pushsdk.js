@@ -2,10 +2,21 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link } from 'react-router';
 import Faq from '../public/faq';
+import Doc from '../public/doc';
+import FeatureList from '../public/featureList';
+import { PUSH_FEATURELIST } from '../../constants/featureListData';
+import { PUSH_FAQ } from '../../constants/faqData';
+import { PUSH_DOC } from '../../constants/docData';
+
 
 class Pushsdk extends Component {
 
     render() {
+
+        let featureArray = PUSH_FEATURELIST;
+        let faqData = PUSH_FAQ;
+        let docData = PUSH_DOC;
+
         return (
             <div className="pushsdk-outbox">
                 <div className="pushsdk-part1-bg">
@@ -41,50 +52,7 @@ class Pushsdk extends Component {
                             上，提供了简单易用的连麦对讲功能，以及整合了更多其他功<br/>
                             能：
                         </div>
-                        <div className="rtc-part2-list">
-                            <div className="rtc-part2-line">
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    外部美颜
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                            </div>
-                            <div className="rtc-part2-line">
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                            </div>
-                            <div className="rtc-part2-line">
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                            </div>
-                        </div>
+                        <FeatureList featureArray={ featureArray } />
                     </div>
                 </div>
 
@@ -172,8 +140,8 @@ class Pushsdk extends Component {
                     </div>
                 </div>
 
-                <Faq/>
-
+                <Faq faqData={faqData} />
+                <Doc docData={docData} />
             </div>
         )
     }
