@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Faq from '../public/faq';
+import FeatureList from '../public/featureList';
+import { RTC_FEATURELIST } from '../../constants/featureListData';
 
 class Rtc extends Component {
     render() {
+
+        let featureArray = RTC_FEATURELIST;
+
         return (
             <div className="rtc-outbox">
                 <div className="rtc-part1-bg">
@@ -37,50 +42,7 @@ class Rtc extends Component {
                             上，提供了简单易用的连麦对讲功能，以及整合了更多其他功<br/>
                             能：
                         </div>
-                        <div className="rtc-part2-list">
-                            <div className="rtc-part2-line">
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    外部美颜
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                            </div>
-                            <div className="rtc-part2-line">
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                            </div>
-                            <div className="rtc-part2-line">
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                                <div>
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg" />
-                                    踢人
-                                </div>
-                            </div>
-                        </div>
+                        <FeatureList featureArray={ featureArray } />
                     </div>
                 </div>
                 <Faq/>

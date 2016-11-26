@@ -52,7 +52,7 @@
 @font-light: 300;
 
 
-//公有样式
+//弹性盒子
 
 .flex-box-center {
   display: -webkit-flex;
@@ -62,6 +62,25 @@
   -webkit-align-items: center;
   align-items: center;
 }
+
+.flex-box-right {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.flex-box-between {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+
+
 
 .button-active {
   background-color: black;
@@ -94,12 +113,6 @@
   }
 }
 
-.flex-box-between {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
 
 body {
   margin: 0;

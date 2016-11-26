@@ -1,5 +1,4 @@
-
-.player-part1{
+.player-part1 {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -8,76 +7,58 @@
   padding-top: 80px;
 }
 
-.player-part1-img{
+.player-part1-img {
   width: 840px;
 }
 
-.player-part1-line1{
+.player-part1-line1 {
   width: 700px;
   .flex-box-between;
   margin-right: auto;
   margin-left: auto;
 }
 
-.player-part1-line1-btn{
+.player-part1-line1-btn {
   width: 140px;
   height: 60px;
-  /* Rectangle 2: */
-  background: rgba(0,0,0,0.00);
-  border: 1px solid #000000;
-  /* 立即使用: */
-  font-size: 18px;
-  letter-spacing: 1.5px;
   line-height: 60px;
   .button-style
 }
 
-.player-part1-line1-left{
+.player-part1-line1-left {
   width: 400px;
 }
 
-.player-part1-line2{
+.player-part1-line2 {
   width: 840px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.player-part1-line3{
+.player-part1-line3 {
   width: 700px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .player-part1-line1-title {
-  /* 播放器 SDK: */
-  font-size: 24px;
-  color: #000000;
-  letter-spacing: 0.65px;
-  font-weight: 200;
+  .font-24;
   margin-top: 15px;
 }
 
-.player-part1-line1-inner{
-  /* 精彩视野， 互动播放更加丰富。: */
-  font-size: 40px;
-  color: #000000;
-  letter-spacing: 1.1px;
-  font-weight: 200;
+.player-part1-line1-inner {
+  .font-38;
   margin-top: 20px;
   margin-bottom: 65px;
 }
 
-.player-part1-line3{
+.player-part1-line3 {
   /* 强大的播放解码 SDK，专注直播而不限直: */
-  font-size: 20px;
-  color: #4D4D4D;
-  letter-spacing: 0;
-  line-height: 36px;
-  font-weight: 200;
+  .font-20;
   margin-top: 50px;
 }
 
-.player-part2{
+.player-part2 {
   .flex-box-between;
   width: 1100px;
   margin-left: auto;
@@ -87,64 +68,42 @@
   margin-bottom: 80px;
 }
 
-.player-part2-cell{
+.player-part2-cell {
 
 }
 
-.player-part2-cell-title{
-  /* 多用播放器: */
-  font-size: 24px;
-  color: #000000;
-  letter-spacing: 0.3px;
+.player-part2-cell-title {
+  .font-24;
   margin-top: 20px;
-  font-weight: 200;
 }
 
-.player-part2-cell-inner{
-  /* 多用播放器: */
-  /* 不仅适用于直播格式还支持更多主流媒体格式: */
-  font-size: 16px;
-  color: #4D4D4D;
-  letter-spacing: 0;
-  line-height: 28px;
-  font-weight: 300;
+.player-part2-cell-inner {
+  .font-16;
   margin-top: 10px;
 }
 
-
-.player-part3-line1{
+.player-part3-line1 {
   padding-left: 0px;
 }
 
-.player-part3-inner1{
+.player-part3-inner1 {
   /* 功能: */
-  font-size: 24px;
-  color: #000000;
-  letter-spacing: 0.66px;
-  font-weight: 200;
+  .font-24;
 }
 
-.player-part3-inner2{
+.player-part3-inner2 {
   /* 完善的功能，多样的组合。: */
-  font-size: 40px;
-  color: #000000;
-  letter-spacing: 1.1px;
-  font-weight: 200;
-  margin-top: 30px;
+  .font-38;
 }
 
-.player-part3-inner3{
-  /* Pili 的播放器 SDK 在最基础的拉: */
-  font-size: 20px;
-  color: #4D4D4D;
-  letter-spacing: 0;
+.player-part3-inner3 {
+  .font-20;
   line-height: 36px;
-  font-weight: 200;
   margin-top: 30px;
   margin-bottom: 120px;
 }
 
-.player-part3{
+.player-part3 {
   width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -155,56 +114,40 @@
 .player-part3-line4-cell {
   width: 50%;
   height: 40px;
-
   .flex-box-between;
   float: left;
   font-weight: 300;
 }
 
-.player-part3-line4-icon{
+.player-part3-line4-icon {
   padding-right: 100px;
 }
 
-.player-part3-line4-title{
+.player-part3-line4-title {
   padding-left: 0px;
 }
 
-.player-layer{
+.player-layer {
   width: 1200px;
   height: 100px;
-  //background-color: white;
   position: absolute;
   margin-top: -100px;
 }
 
 /***************************************************/
 
+@media (max-width: 1336px) {
 
-@media (max-width:1336px) {
-  .player-part1{
+  .player-part1 {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 120px;
-    padding-top: 80px;
   }
 
-  .player-part2{
-    .flex-box-between;
+  .player-part2 {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 80px;
   }
 
-  .player-part3{
+  .player-part3 {
     width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 200px;
-    margin-bottom: 200px;
   }
+
 }
