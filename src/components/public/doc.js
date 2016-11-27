@@ -48,11 +48,11 @@ class Doc extends Component {
                                 Android 开发文档
                             </a>
                         </div>
-                        <div className="doc-outbox-inner">
-                            <a href={docData.designDocUrl}>
-                                设计方案文档
-                            </a>
-                        </div>
+                        {/*<div className="doc-outbox-inner">*/}
+                            {/*<a href={docData.designDocUrl}>*/}
+                                {/*设计方案文档*/}
+                            {/*</a>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 <div className="doc-outbox-line2">

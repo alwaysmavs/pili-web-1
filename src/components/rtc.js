@@ -31,7 +31,9 @@ class Rtc extends Component {
                                 等功能，客户端则提供了媒体数据的采集、编码、传
                                 输、显示等功能。
                             </div>
-                            <div className="rtc-part1-btn">立即使用</div>
+                            <a href="mailto:pili-product@qiniu.com">
+                                <div className="rtc-part1-btn">立即联系使用</div>
+                            </a>
                         </div>
                         <div className="rtc-part1-right">
                             <img className="rtc-part1-img" src="http://ofji7fgcp.bkt.clouddn.com/rtc.png" />

@@ -36,7 +36,7 @@ class Navigator extends Component {
                                 </div>
                             </a>
 
-                            <Link href="/price">
+                            <Link to="/price">
                                 <div className="colorize" data-dropdown="price">
                                     <span className="rootLink">服务方案</span>
                                 </div>
@@ -171,7 +171,7 @@ class Navigator extends Component {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <a href="http://beingswu.coding.me/">
+                                        <a href="http://www.blog.beings.me/">
                                             <div className="nav-stripe-product-cell">
                                                 <div className="nav-stripe-product-imgbox">
                                                     <img src="http://ofji7fgcp.bkt.clouddn.com/blog.svg" />

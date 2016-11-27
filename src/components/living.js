@@ -59,9 +59,9 @@ class Living extends Component {
                             <div className="living-part3-box-text">
                                 为了方便零基础的开发者进行参考和评估，我们开放了直播 App 实现源码，希望你喜欢。
                             </div>
-                            <div className="living-part3-box-btn">
-                                查看开源代码
-                            </div>
+                            {/*<div className="living-part3-box-btn">*/}
+                                {/*查看开源代码*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>

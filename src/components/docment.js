@@ -75,8 +75,16 @@ class Document extends Component {
                                     开发文档
                                 </a>
                             </div>
-                            <div className="document-part2-inner">API 文档</div>
-                            <div className="document-part2-inner">SDK 下载</div>
+                            <div className="document-part2-inner">
+                                <a href="http://cocoadocs.org/docsets/PLPlayerKit/2.2.1/Classes/PLPlayer.html">
+                                    API 文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="https://github.com/pili-engineering/PLPlayerKit">
+                                    SDK 下载
+                                </a>
+                            </div>
                         </div>
                         <div className="document-part2-cell">
                             <div className="document-part2-title">Android 播放器 SDK</div>
@@ -85,8 +93,16 @@ class Document extends Component {
                                     开发文档
                                 </a>
                             </div>
-                            <div className="document-part2-inner">API 文档</div>
-                            <div className="document-part2-inner">SDK 下载</div>
+                            <div className="document-part2-inner">
+                                <a href="http://pili-docs.cloudvdn.com/android-player/index.html">
+                                    API 文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="https://github.com/pili-engineering/PLDroidPlayer">
+                                    SDK 下载
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -106,8 +122,16 @@ class Document extends Component {
                                     开发文档
                                 </a>
                             </div>
-                            <div className="document-part2-inner">API 文档</div>
-                            <div className="document-part2-inner">SDK 下载</div>
+                            <div className="document-part2-inner">
+                                <a href="http://cocoadocs.org/docsets/PLCameraStreamingKit/1.7.2/">
+                                    API 文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="https://github.com/pili-engineering/PLMediaStreamingKit">
+                                    SDK 下载
+                                </a>
+                            </div>
                         </div>
                         <div className="document-part2-cell">
                             <div className="document-part2-title">Android 推流 SDK</div>
@@ -116,8 +140,16 @@ class Document extends Component {
                                     开发文档
                                 </a>
                             </div>
-                            <div className="document-part2-inner">API 文档</div>
-                            <div className="document-part2-inner">SDK 下载</div>
+                            <div className="document-part2-inner">
+                                <a href="http://pili-docs.cloudvdn.com/android-streaming/index.html">
+                                    API 文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="https://github.com/pili-engineering/PLDroidMediaStreaming">
+                                    SDK 下载
+                                </a>
+                            </div>
                         </div>
                     </div>
 
@@ -132,39 +164,69 @@ class Document extends Component {
                         </div>
                         <div className="document-part2-cell">
                             <div className="document-part2-title">iOS 连麦互动 SDK</div>
-                            <div className="document-part2-inner">开发文档</div>
-                            <div className="document-part2-inner">API 文档</div>
-                            <div className="document-part2-inner">SDK 下载</div>
+                            <div className="document-part2-inner">
+                                <a href="http://oaccf377t.bkt.clouddn.com/PLMediaStreamingKit_v2.1.4.5.zip">
+                                    SDK 以及文档下载
+                                </a>
+                            </div>
                         </div>
                         <div className="document-part2-cell">
                             <div className="document-part2-title">Android 连麦互动 SDK</div>
-                            <div className="document-part2-inner">开发文档</div>
-                            <div className="document-part2-inner">API 文档</div>
-                            <div className="document-part2-inner">SDK 下载</div>
+                            <div className="document-part2-inner">
+                                <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-11-03-Android.zip">
+                                    SDK 以及文档下载
+                                </a>
+                            </div>
                         </div>
                     </div>
+
+                    <div className="document-part2-line1">
+                        <div className="document-part2-cell1">
+
+                        </div>
+                        <div className="document-part2-cell">
+                            <div className="document-part2-title">server 连麦互动 SDK</div>
+                            <div className="document-part2-inner">
+                                <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-Server.zip">
+                                    SDK 以及文档下载
+                                </a>
+                            </div>
+                        </div>
+                        <div className="document-part2-cell">
+
+                        </div>
+                    </div>
+
+
+
                 </div>
 
                 <div className="document-part3">
 
-                    <div className="document-part3-cell">
-                        <div className="document-part3-title">博客</div>
-                        <div className="document-part3-inner">产品动态、直播知识</div>
-                    </div>
+                    <a href="http://www.blog.beings.me">
+                        <div className="document-part3-cell">
+                            <div className="document-part3-title">博客</div>
+                            <div className="document-part3-inner">产品动态、直播知识</div>
+                        </div>
+                    </a>
 
                     <div className="document-part3-cutline"></div>
 
-                    <div className="document-part3-cell">
-                        <div className="document-part3-title">常见问题</div>
-                        <div className="document-part3-inner">关于 SDK 的常见问题</div>
-                    </div>
+                    <a href="https://pili.kf5.com/hc/">
+                        <div className="document-part3-cell">
+                            <div className="document-part3-title">常见问题</div>
+                            <div className="document-part3-inner">关于 SDK 的常见问题</div>
+                        </div>
+                    </a>
 
                     <div className="document-part3-cutline"></div>
 
-                    <div className="document-part3-cell">
-                        <div className="document-part3-title">联系我们</div>
-                        <div className="document-part3-inner">产品使用、销售</div>
-                    </div>
+                    <a href="mailto:pili-product@qiniu.com">
+                        <div className="document-part3-cell">
+                            <div className="document-part3-title">联系我们</div>
+                            <div className="document-part3-inner">产品使用、销售</div>
+                        </div>
+                    </a>
                 </div>
 
             </div>

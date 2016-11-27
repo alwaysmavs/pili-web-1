@@ -18,7 +18,9 @@ class Contact extends Component {
                         <div className="contact-part1-inner">你可以直接发邮件到：pili-product@qiniu.com</div>
                     </div>
                     <div className="contact-part1-right">
-                        <div className="contact-part1-btn">发邮件给我们</div>
+                        <a href="mailto:pili-product@qiniu.com">
+                            <div className="contact-part1-btn">发邮件给我们</div>
+                        </a>
                     </div>
                 </div>
                 <div className="contact-part2">

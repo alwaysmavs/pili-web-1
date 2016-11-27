@@ -9,7 +9,7 @@ class Footer extends Component {
             <div className="footer-outbox">
                 <div className="footer-line">
                         <div>
-                            <Link to="/about"> 关于我们</Link>
+                            <Link to="/about#top"> 关于我们</Link>
                         </div>
                         <div>
                             <Link to="/price">服务方案</Link>

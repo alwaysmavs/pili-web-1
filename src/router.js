@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Router, Route, Link,hashHistory ,IndexRoute } from 'react-router';
+import { Router, Route, Link,hashHistory ,IndexRoute,applyRouterMiddleware } from 'react-router';
+import { useScroll } from 'react-router-scroll';
 import { render } from 'react-dom';
 import App from './components/index';
 import Living from './components/living';
@@ -17,7 +18,7 @@ import Document from './components/docment';
 class Routers extends Component {
     render() {
         return (
-            <Router history={hashHistory}>
+            <Router history={hashHistory}  render={applyRouterMiddleware(useScroll())}>
                 <Route path="/" component={App}>
                     <IndexRoute component={Homepage}/>
                     <Route path="contact" component={Contact}/>
