@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import HomepageBg from '../homepage/homepageBg';
-import Apply from '../contact/apply';
+import Apply from '../public/apply';
 
 
 class Enterprise extends Component {
@@ -19,9 +19,11 @@ class Enterprise extends Component {
                             制，让你的事业起步即领跑。
                         </div>
                     </div>
-                    <div className="enterprise-part1-btn">
-                        申请企业服务
-                    </div>
+                    <a href="mailto:pili-product@qiniu.com">
+                        <div className="enterprise-part1-btn">
+                            申请企业服务
+                        </div>
+                    </a>
                 </div>
 
                 <div className="enterprise-part-insert-bg">
@@ -130,9 +132,6 @@ class Enterprise extends Component {
                     </div>
                 </div>
 
-                <div className="enterprise-part4">
-                    <Apply />
-                </div>
             </div>
         )
     }

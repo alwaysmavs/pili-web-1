@@ -9,7 +9,6 @@ class Navigator extends Component {
         require("../../Plugins/navAnimated");
     }
 
-
     render() {
 
         return (
@@ -37,11 +36,19 @@ class Navigator extends Component {
                                 </div>
                             </a>
 
-                            <Link to="/living">
-                                <div className="colorize" data-dropdown="enterprise">
-                                    <span className="rootLink2">最佳实践 Living</span>
+                            <Link href="/price">
+                                <div className="colorize" data-dropdown="price">
+                                    <span className="rootLink">服务方案</span>
                                 </div>
                             </Link>
+
+                            <Link to="/living">
+                                <div className="colorize" data-dropdown="living">
+                                    <span className="rootLink2">最佳实践</span>
+                                </div>
+                            </Link>
+
+
 
                         </div>
 
@@ -140,7 +147,6 @@ class Navigator extends Component {
                                             </div>
                                         </Link>
 
-
                                     </div>
                                 </div>
                             </div>
@@ -150,6 +156,7 @@ class Navigator extends Component {
                             <div className="dropdownContent">
                                 <div className="nav-stripe-developers">
                                     <div className="nav-stripe-product-box">
+
                                         <Link to="/document">
                                             <div className="nav-stripe-product-cell nav-stripe-margin-bottom">
                                                 <div className="nav-stripe-product-imgbox">
@@ -165,7 +172,6 @@ class Navigator extends Component {
                                             </div>
                                         </Link>
 
-
                                         <div className="nav-stripe-product-cell">
                                             <div className="nav-stripe-product-imgbox">
                                                 <img src="http://ofji7fgcp.bkt.clouddn.com/blog.svg" />
@@ -178,17 +184,13 @@ class Navigator extends Component {
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
-
                 </div>
-
             </header>
         )
     }

@@ -1,50 +1,6 @@
 // catalogue => 1:SCENES 2:BG_CUSTOMER 3:FEATURE 4:PLAYER_DOC
 
 
-// 覆盖场景
-
-export const SCENES = [
-    {
-        iconId: 1,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/sejiao.svg",
-        name: "社交"
-    },
-    {
-        iconId: 2,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/tech.svg",
-        name: "教育"
-    },
-    {
-        iconId: 3,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/doctor.svg",
-        name: "医疗"
-    },
-    {
-        iconId: 4,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/game.svg",
-        name: "游戏"
-    },
-    {
-        iconId: 5,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/kefu.svg",
-        name: "客服"
-    },
-    {
-        iconId: 6,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/shopping.svg",
-        name: "电商"
-    },
-    {
-        iconId: 7,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/shixun.svg",
-        name: "视讯"
-    },
-    {
-        iconId: 8,
-        iconImg: "http://ofji7fgcp.bkt.clouddn.com/fm.svg",
-        name: "FM"
-    }
-];
 
 // 背书客户
 
@@ -108,5 +64,45 @@ export const PAGE_FEATURE_LIST = [
         pageFeatureId: 4,
         pageFeatureTitle: "美颜",
         pageFeatureInner: "让主播皮肤，妆容更具吸引"
+    },
+    {
+        pageFeatureId: 5,
+        pageFeatureTitle: "动态脸萌",
+        pageFeatureInner: "追踪主播脸部表情，添加有趣画面效果"
+    },
+    {
+        pageFeatureId: 6,
+        pageFeatureTitle: "弹幕评论",
+        pageFeatureInner: "主播和播放器端显示文字表情弹幕"
+    },
+    {
+        pageFeatureId: 7,
+        pageFeatureTitle: "质量监控",
+        pageFeatureInner: "帮你选择最佳传输线路，让直播畅通无阻"
+    },
+    {
+        pageFeatureId: 8,
+        pageFeatureTitle: "故障上报",
+        pageFeatureInner: "帮助客户输定问题，有效应对直播故障"
+    },
+    {
+        pageFeatureId: 9,
+        pageFeatureTitle: "首屏秒开",
+        pageFeatureInner: "有效提高客户的应用的体验"
+    },
+    {
+        pageFeatureId: 10,
+        pageFeatureTitle: "次世代播放器支持",
+        pageFeatureInner: "覆盖次世代播放器场景，做好现在挖掘未来"
+    },
+    {
+        pageFeatureId: 11,
+        pageFeatureTitle: "安全加密",
+        pageFeatureInner: "双平台支持 HLS AES-128 加解密，保护你的版权"
+    },
+    {
+        pageFeatureId: 12,
+        pageFeatureTitle: "弱网优化",
+        pageFeatureInner: "弱网环境依旧稳定推流，让户外直播充满想象"
     }
 ];

@@ -126,9 +126,11 @@ class Homepage extends Component {
                         </div>
                     </div>
                     <div className="homepage-part1-right">
-                        <div className="homepage-part1-btn">
-                            立即联系使用
-                        </div>
+                        <a href="mailto:pili-product@qiniu.com">
+                            <div className="homepage-part1-btn">
+                                立即联系使用
+                            </div>
+                        </a>
                     </div>
                 </div>
 

@@ -64,23 +64,39 @@ export const RTC_FEATURELIST = [
 export const PLAYER_FEATURELIST = [
     {
         featureId: 1,
-        featureName:"踢人"
+        featureName:"首屏秒开"
     },
     {
         featureId: 2,
-        featureName:"踢人2"
+        featureName:"RTMP,FLV,HLS 兼容"
     },
     {
         featureId: 3,
-        featureName:"踢人2"
+        featureName:"HLS AES-128 加密支持"
     },
     {
         featureId: 4,
-        featureName:"踢人2"
+        featureName:"追帧优化"
     },
     {
         featureId: 5,
-        featureName:"踢人2"
+        featureName:"VR 播放器支持"
+    },
+    {
+        featureId: 6,
+        featureName:"全景播放器支持"
+    },
+    {
+        featureId: 7,
+        featureName:"丰富的状态回调"
+    },
+    {
+        featureId: 8,
+        featureName:"支持音视频数据回调"
+    },
+    {
+        featureId: 9,
+        featureName:"支持报障功能"
     }
 ];
 

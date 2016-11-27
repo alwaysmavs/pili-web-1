@@ -12,15 +12,13 @@ class Footer extends Component {
                             <Link to="/about"> 关于我们</Link>
                         </div>
                         <div>
-                            <Link to="/enterprise">
-                                企业服务
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/price">价格</Link>
+                            <Link to="/price">服务方案</Link>
                         </div>
                         <div>
                             <Link to="/document">开发文档</Link>
+                        </div>
+                        <div>
+                            <Link to="/contact">办公地址</Link>
                         </div>
                         <div>
                             <a href="https://pili.kf5.com/hc/">常见问题</a>

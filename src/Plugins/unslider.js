@@ -43,7 +43,7 @@
             var t = $('<nav class="' + e.prefix + 'nav"><ol /></nav>');
             e.$slides.each(function (n) {
 
-                var test= [
+                var title= [
                     "社交",
                     "教育",
                     "医疗",
@@ -54,8 +54,20 @@
                     "FM"
                 ];
 
+                var iconUrl= [
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_social1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_education1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_medical1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_game1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_cs1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_em1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_im1.svg",
+                    "http://ofji7fgcp.bkt.clouddn.com/icon_fm1.svg"
+                ];
+
+
                 var i = this.getAttribute("data-nav") || n + 1;
-                $.isFunction(e.options.nav) && (i = e.options.nav.call(e.$slides.eq(n), n, i)), t.children("ol").append('<li data-slide="' + n + '">' + '<img src="' + 'http://ofji7fgcp.bkt.clouddn.com/' + n + '.svg' + '" />' + ' <br/> ' + '<span> ' + test[n] + ' </span> ' + "</li>")
+                $.isFunction(e.options.nav) && (i = e.options.nav.call(e.$slides.eq(n), n, i)), t.children("ol").append('<li data-slide="' + n + '">' + '<img src="' + iconUrl[n] + '" />' + ' <br/> ' + '<span> ' + title[n] + ' </span> ' + "</li>")
             }), e.$nav = t.insertAfter(e.$context), e.$nav.find("li").on("click" + e.eventSuffix, function () {
                 var t = $(this).addClass(e.options.activeClass);
                 t.siblings().removeClass(e.options.activeClass), e.animate(t.attr("data-slide"))

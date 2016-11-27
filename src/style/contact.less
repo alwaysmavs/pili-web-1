@@ -1,26 +1,36 @@
-.contact-part1-left{
-  width: 450px;
-  float: left;
-  margin-top: 40px;
-}
-
-.contact-part1-email{
-  .font-18;
-  line-height: 60px;
-}
-
-.contact-part1-right{
-  width: 500px;
-  float: right;
-  text-align: right;
-}
-
 .contact-part1 {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
   padding-top: 80px;
+  .flex-box-between;
+}
+
+.contact-part1-left{
+  width: 500px;
+}
+
+.contact-part1-right{
+  width: 500px;
+}
+
+.contact-part1-title{
+  .font-38;
+  line-height: 58px;
+}
+
+.contact-part1-inner{
+  .font-18;
+  margin-top: 20px;
+}
+
+.contact-part1-btn{
+  margin-top: 20px;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+  .button-style;
 }
 
 .contact-part1-input{
@@ -80,40 +90,22 @@
   background: url("http://ofji7fgcp.bkt.clouddn.com/arrow.svg") no-repeat scroll right center transparent;
 }
 
-.contact-part1-title{
-  .font-38;
-  line-height: 58px;
-}
 
-.contact-part1-inf{
-  margin-top: 20px;
-  font-size: 18px;
-  width: 94px;
-  color: #A7A7A7;
-  float: right;
-  cursor: pointer;
-  font-weight: 200;
-  img{
-    padding-left: 10px;
-  }
-}
 
 .contact-part2{
   width: 1200px;
-  height: 400px;
   margin-left: auto;
   margin-right: auto;
-  .flex-box-between
+  .flex-box-right;
 }
 
 .contact-part2-map{
   width: 500px;
-  height: 100%;
+  height: 410px;
 }
 
 .contact-part2-text{
   width: 500px;
-  height: 100%;
 }
 
 .contact-part2 {
@@ -121,48 +113,42 @@
 }
 
 .contact-part2-title{
-  font-size: 40px;
+  .font-24;
   line-height: 58px;
-  font-weight: 200;
 }
 
 .contact-part2-script{
-  margin-top: 30px;
-  font-size: 20px;
-  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  .font-18;
 }
 
 .contact-part3{
   width: 1200px;
-  height: 300px;
   margin-right: auto;
   margin-left: auto;
-  .flex-box-between;
-  margin-top: 160px;
-  margin-bottom: 200px;
+  .flex-box-right;
+  margin-top: 80px;
+  margin-bottom: 160px;
 }
 
-.contact-part3-left{
-  width: 420px;
-  height: 60px;
-  margin-top: 180px;
-  .flex-box-between;
+.contact-part3-mid{
+  width: 500px;
 }
 
-.contact-part3-left-title {
-  width: 160px;
-  font-size: 40px;
-  font-weight: 200;
+.contact-part3-title {
+  .font-24;
   line-height: 58px;
   height: 60px;
 }
 
-.contact-part3-left-inner{
+.contact-part3-inner{
   width: 160px;
   .flex-box-between;
   height: 60px;
   img{
     display: block;
+    width: 24px;
   }
 }
 
@@ -180,31 +166,16 @@
 @media (max-width:1336px) {
   .contact-part1 {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-    padding-top: 80px;
   }
 
   .contact-part2{
     width: 960px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    .flex-box-between
   }
   .contact-part2-text{
     width: 350px;
-    height: 100%;
   }
 
   .contact-part3{
     width: 960px;
-    height: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    .flex-box-between;
-    margin-top: 160px;
-    margin-bottom: 200px;
   }
 }

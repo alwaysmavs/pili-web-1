@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import {Router, Route, Link} from 'react-router';
 
 class Price extends Component {
-    componentDidMount(){
-        
-    }
 
     render() {
         return (
             <div className="price-outbox">
                 <div className="price-part1-bg">
                     <div className="price-part1-title">
-                        价格方案
+                        服务方案
                     </div>
                 </div>
                 <div className="price-part1">
                     <div  className="price-part1-list">
                         <div className="price-line-box">
                             <div className="price-line1">
-                                免费
+                                默认免费使用
                             </div>
                             <div className="price-line2">
                                 选择此方案
@@ -26,13 +24,22 @@ class Price extends Component {
                         </div>
 
                         <div className="price-line3">
-                            SDK 基本功能
+                            SDK 内置功能
                         </div>
                         <div className="price-line3 text-cut">
-                            高级自定义功能
+                            面部识别以及特效功能
+                        </div>
+                        <div className="price-line3 text-cut">
+                            Airplay 录屏功能
+                        </div>
+                        <div className="price-line3 text-cut">
+                            高级美颜功能
                         </div>
                         <div className="price-line3">
                             仅 Release 版本推送
+                        </div>
+                        <div className="price-line3 text-cut">
+                            开放授权
                         </div>
                         <div className="cutline"></div>
                         <div className="price-line3 text-cut">
@@ -43,23 +50,13 @@ class Price extends Component {
                         </div>
                         <div className="price-line3">
                             工单支持
-                        </div>
-                        <div className="cutline"></div>
-                        <div className="price-line3">
-                            50 次／月的接口回调
-                        </div>
-                        <div className="price-line3">
-                            50 次／月的接口查询
-                        </div>
-                        <div className="price-line3">
-                            可创建 3 个应用
                         </div>
                     </div>
 
                     <div  className="price-part1-list">
                         <div className="price-line-box">
                             <div className="price-line1">
-                                免费
+                                可选拓展服务
                             </div>
                             <div className="price-line2">
                                 选择此方案
@@ -67,116 +64,34 @@ class Price extends Component {
                         </div>
 
                         <div className="price-line3">
-                            SDK 基本功能
+                            SDK 内置功能
                         </div>
-                        <div className="price-line3 text-cut">
-                            高级自定义功能
+                        <div className="price-line3 ">
+                            面部识别以及特效功能
+                        </div>
+                        <div className="price-line3 ">
+                            Airplay 录屏功能
+                        </div>
+                        <div className="price-line3 ">
+                            高级美颜功能
                         </div>
                         <div className="price-line3">
                             仅 Release 版本推送
                         </div>
+                        <div className="price-line3 ">
+                            开放授权
+                        </div>
                         <div className="cutline"></div>
-                        <div className="price-line3 text-cut">
+                        <div className="price-line3 ">
                             线上支持
                         </div>
-                        <div className="price-line3 text-cut">
+                        <div className="price-line3 ">
                             驻场支持
                         </div>
                         <div className="price-line3">
                             工单支持
                         </div>
-                        <div className="cutline"></div>
-                        <div className="price-line3">
-                            50 次／月的接口回调
-                        </div>
-                        <div className="price-line3">
-                            50 次／月的接口查询
-                        </div>
-                        <div className="price-line3">
-                            可创建 3 个应用
-                        </div>
-                    </div>
 
-                    <div  className="price-part1-list">
-                        <div className="price-line-box">
-                            <div className="price-line1">
-                                免费
-                            </div>
-                            <div className="price-line2">
-                                选择此方案
-                            </div>
-                        </div>
-
-                        <div className="price-line3">
-                            SDK 基本功能
-                        </div>
-                        <div className="price-line3 text-cut">
-                            高级自定义功能
-                        </div>
-                        <div className="price-line3">
-                            仅 Release 版本推送
-                        </div>
-                        <div className="cutline"></div>
-                        <div className="price-line3 text-cut">
-                            线上支持
-                        </div>
-                        <div className="price-line3 text-cut">
-                            驻场支持
-                        </div>
-                        <div className="price-line3">
-                            工单支持
-                        </div>
-                        <div className="cutline"></div>
-                        <div className="price-line3">
-                            50 次／月的接口回调
-                        </div>
-                        <div className="price-line3">
-                            50 次／月的接口查询
-                        </div>
-                        <div className="price-line3">
-                            可创建 3 个应用
-                        </div>
-                    </div>
-
-                    <div  className="price-part1-list">
-                        <div className="price-line-box">
-                            <div className="price-line1">
-                                免费
-                            </div>
-                            <div className="price-line2">
-                                选择此方案
-                            </div>
-                        </div>
-
-                        <div className="price-line3">
-                            SDK 基本功能
-                        </div>
-                        <div className="price-line3 text-cut">
-                            高级自定义功能
-                        </div>
-                        <div className="price-line3">
-                            仅 Release 版本推送
-                        </div>
-                        <div className="cutline"></div>
-                        <div className="price-line3 text-cut">
-                            线上支持
-                        </div>
-                        <div className="price-line3 text-cut">
-                            驻场支持
-                        </div>
-                        <div className="price-line3">
-                            工单支持
-                        </div>
-                        <div className="cutline"></div>
-                        <div className="price-line3">
-                            50 次／月的接口回调
-                        </div>
-                        <div className="price-line3">
-                            50 次／月的接口查询
-                        </div>
-                        <div className="price-line3">
-                            可创建 3 个应用
-                        </div>
                     </div>
                 </div>
 
@@ -185,9 +100,11 @@ class Price extends Component {
                     <div className="price-part2-left">
                         定制需求可以进一步了解我们的企业服务。
                     </div>
-                    <div className="price-part2-right">
-                        了解企业服务
-                    </div>
+                    <Link to="/enterprise">
+                        <div className="price-part2-right">
+                            了解企业服务
+                        </div>
+                    </Link>
                 </div>
 
                 <div className="price-part3">
