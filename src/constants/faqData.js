@@ -22,13 +22,25 @@ export const PUSH_FAQ = {
         {
             faqId: 1,
             faqTitle:"连麦 SDK 需要替换以前的推流 SDK 吗？",
-            faqInner:"是的，连麦 SDK 是在推流 SDK 基础上增加了",
+            faqInner:"是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了",
             faqUrl:"http://www.baidu.com"
         },
         {
             faqId: 2,
             faqTitle:"连麦 SDK 需要替换以前的推流 SDK 吗？",
-            faqInner:"是的，连麦 SDK 是在推流 SDK 基础上增加了",
+            faqInner:"是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了",
+            faqUrl:"http://www.baidu.com"
+        },
+        {
+            faqId: 2,
+            faqTitle:"连麦 SDK 需要替换以前的推流 SDK 吗？",
+            faqInner:"是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了",
+            faqUrl:"http://www.baidu.com"
+        },
+        {
+            faqId: 2,
+            faqTitle:"连麦 SDK 需要替换以前的推流 SDK 吗？",
+            faqInner:"是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了是的，连麦 SDK 是在推流 SDK 基础上增加了",
             faqUrl:"http://www.baidu.com"
         }
     ]

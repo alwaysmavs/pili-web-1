@@ -48,6 +48,7 @@ class Rtc extends Component {
                             能：
                         </div>
                         <FeatureList featureArray={ featureArray } />
+                        <div className="featureList-bottom"></div>
                     </div>
                 </div>
                 <Faq faqData={faqData} />

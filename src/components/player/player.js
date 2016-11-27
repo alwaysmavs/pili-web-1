@@ -57,30 +57,27 @@ class Player extends Component {
                         </div>
                         <div className="player-part2-cell-title">多用播放器</div>
                         <div className="player-part2-cell-inner">
-                            不仅适用于直播格式还支持<br/>
-                            更多主流媒体格式。
+                            不仅适用于直播格式还支持更多主流媒体格式。
                         </div>
                     </div>
 
                     <div className="player-part2-cell">
                         <div className="player-part2-cell-icon">
-                            <img src="http://ofji7fgcp.bkt.clouddn.com/playercion2.svg"/>
+                            <img src="http://ofji7fgcp.bkt.clouddn.com/zidingyi.svg"/>
                         </div>
-                        <div className="player-part2-cell-title">多用播放器</div>
+                        <div className="player-part2-cell-title">直播视频秒开</div>
                         <div className="player-part2-cell-inner">
-                            不仅适用于直播格式还支持<br/>
-                            更多主流媒体格式。
+                            通过优化网络层，实现秒级打开播放器。
                         </div>
                     </div>
 
                     <div className="player-part2-cell">
                         <div className="player-part2-cell-icon">
-                            <img src="http://ofji7fgcp.bkt.clouddn.com/playercion2.svg"/>
+                            <img src="http://ofji7fgcp.bkt.clouddn.com/quickstart.svg"/>
                         </div>
                         <div className="player-part2-cell-title">多用播放器</div>
                         <div className="player-part2-cell-inner">
-                            不仅适用于直播格式还支持<br/>
-                            更多主流媒体格式。
+                            不仅适用于直播格式还支持更多主流媒体格式。
                         </div>
                     </div>
                 </div>

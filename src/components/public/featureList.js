@@ -11,8 +11,8 @@ class FeatureList extends Component {
         let featureList = featureArray.map(
             function (data) {
                 return (
-                    <div className="featureList-test" key={data.featureId}>
-                        <div className="featureList-test-midbox">
+                    <div className="featureList" key={data.featureId}>
+                        <div className="featureList-midbox">
                             <img src="http://ofji7fgcp.bkt.clouddn.com/arrow-rtc1.svg"/>
                             <span>{data.featureName}</span>
                         </div>
@@ -22,9 +22,9 @@ class FeatureList extends Component {
         );
 
         return (
-            <div className="rtc-part2-list">
+            <div className="featureList-box">
                 { featureList }
-                <div className="float-clear"></div>
+                <div className="float-clear "></div>
             </div>
         )
     }
