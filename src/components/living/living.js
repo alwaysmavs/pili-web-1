@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 
 class Living extends Component {
     render() {
-
         return (
             <div className="living-box">
                 <div className="living-part1">

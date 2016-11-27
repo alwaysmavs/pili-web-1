@@ -1,9 +1,30 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Feature from './feature';
+// import Feature from './feature';
+import { PAGE_FEATURE_LIST } from '../../constants/pageData';
 
 class Character extends Component {
     render() {
+
+        let pageFeatureArray = PAGE_FEATURE_LIST;
+
+        let pageFeatureList = pageFeatureArray.map(
+            function (data) {
+                return (
+                    <div className="character-part3-cell" key={data.pageFeatureId}>
+                        <div className="character-part3-midbox">
+                            <div className="character-part3-title">
+                                {data.pageFeatureTitle}
+                            </div>
+                            <div className="character-part3-inner">
+                                {data.pageFeatureInner}
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
+        );
+
         return (
             <div className="character-outbox">
                 <div className="character-part1-bg">
@@ -27,41 +48,37 @@ class Character extends Component {
                 </div>
                 <div className="character-part2">
 
-                    <div className="character-part2-line">
-                        <div className="character-part2-left">
+                        <div className="character-part2-box">
                             <div className="character-part2-right">
-                                <img className="character-part2-img1" src="http://ofji7fgcp.bkt.clouddn.com/rtc.svg" />
+                                <img className="character-part2-img1" src="http://ofji7fgcp.bkt.clouddn.com/icon_lianmai.svg" />
                             </div>
                             <div className="character-part2-title">连麦互动</div>
                             <div className="character-part2-inner">弹幕、私信，以及更多更快速的 IM 方案集成。</div>
                         </div>
-                        <div className="character-part2-btn">了解连麦互动 RTC</div>
-                    </div>
 
-                    <div className="character-part2-line">
-                        <div className="character-part2-left">
+
+                        <div className="character-part2-box">
                             <div className="character-part2-right">
-                                <img className="character-part2-img2" src="http://ofji7fgcp.bkt.clouddn.com/message.svg" />
+                                <img className="character-part2-img2" src="http://ofji7fgcp.bkt.clouddn.com/icon_message.svg" />
                             </div>
                             <div className="character-part2-title">消息互动</div>
                             <div className="character-part2-inner">弹幕、私信，以及更多更快速的 IM 方案集成。</div>
                         </div>
-                    </div>
 
-                    <div className="character-part2-line">
-                        <div className="character-part2-left">
+
+                        <div className="character-part2-box">
                             <div className="character-part2-right">
-                                <img className="character-part2-img3" src="http://ofji7fgcp.bkt.clouddn.com/beaty.svg" />
+                                <img className="character-part2-img3" src="http://ofji7fgcp.bkt.clouddn.com/icon_meiyan.svg" />
                             </div>
                             <div className="character-part2-title">美颜滤镜</div>
                             <div className="character-part2-inner">主播端画面加入各种滤镜效果，十分逼真优秀的美颜效果</div>
                         </div>
 
-                    </div>
                 </div>
 
                 <div className="character-part3">
-                    <Feature />
+                    {pageFeatureList}
+                    <div className="float-clear"></div>
                 </div>
 
             </div>
