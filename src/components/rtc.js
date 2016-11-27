@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Faq from '../public/faq';
-import Doc from '../public/doc';
-import FeatureList from '../public/featureList';
-import { RTC_FEATURELIST } from '../../constants/featureListData';
-import { RTC_FAQ } from '../../constants/faqData';
-import { RTC_DOC } from '../../constants/docData';
+import Faq from './public/faq';
+import Doc from './public/doc';
+import FeatureList from './public/featureList';
+import { RTC_FEATURELIST } from '../constants/featureListData';
+import { RTC_FAQ } from '../constants/faqData';
+import { RTC_DOC } from '../constants/docData';
 
 class Rtc extends Component {
     render() {

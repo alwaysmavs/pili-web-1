@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 // import Feature from './feature';
-import { PAGE_FEATURE_LIST } from '../../constants/pageData';
+import { PAGE_FEATURE_LIST } from '../constants/pageData';
 
 class Character extends Component {
     render() {

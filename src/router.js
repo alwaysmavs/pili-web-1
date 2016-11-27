@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import { Router, Route, Link,hashHistory ,IndexRoute } from 'react-router';
 import { render } from 'react-dom';
 import App from './components/index';
-import Living from './components/living/living';
+import Living from './components/living';
 import Homepage from './components/homepage/homepage';
-import Contact from './components/contact/contact';
-import Enterprise from './components/enterprise/enterprise';
-import Character from './components/character/character';
-import Price from './components/price/price';
-import Rtc from './components/rtc/rtc';
-import About from './components/about/about';
-import Pushsdk from './components/pushsdk/pushsdk';
-import Player from './components/player/player';
-import Document from './components/document/docment';
+import Contact from './components/contact';
+import Enterprise from './components/enterprise';
+import Character from './components/character';
+import Price from './components/price';
+import Rtc from './components/rtc';
+import About from './components/about';
+import Pushsdk from './components/pushsdk';
+import Player from './components/player';
+import Document from './components/docment';
 
 class Routers extends Component {
     render() {

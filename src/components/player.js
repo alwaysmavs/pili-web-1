@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {Router, Route, Link} from 'react-router';
-import Doc from '../public/doc';
-import Faq from '../public/faq';
-import FeatureList from '../public/featureList';
-import { PLAYER_FEATURELIST } from '../../constants/featureListData';
-import { PLAYER_FAQ } from '../../constants/faqData';
-import { PLAYER_DOC } from '../../constants/docData';
+import Doc from './public/doc';
+import Faq from './public/faq';
+import FeatureList from './public/featureList';
+import { PLAYER_FEATURELIST } from '../constants/featureListData';
+import { PLAYER_FAQ } from '../constants/faqData';
+import { PLAYER_DOC } from '../constants/docData';
 
 
 class Player extends Component {

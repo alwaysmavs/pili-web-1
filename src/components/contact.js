@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import { baiduMap } from '../../Plugins/baiduMap';
-import Apply from '../public/apply';
+import { baiduMap } from '../Plugins/baiduMap';
+import Apply from './public/apply';
 
 
 class Contact extends Component {

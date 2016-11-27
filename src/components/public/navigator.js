@@ -171,20 +171,20 @@ class Navigator extends Component {
                                                 </div>
                                             </div>
                                         </Link>
-
-                                        <div className="nav-stripe-product-cell">
-                                            <div className="nav-stripe-product-imgbox">
-                                                <img src="http://ofji7fgcp.bkt.clouddn.com/blog.svg" />
-                                            </div>
-                                            <div className="nav-stripe-product-textbox">
-                                                <div className="nav-stripe-product-title">技术博客</div>
-                                                <div className="nav-stripe-product-inner">
-                                                    技术博客包含直播知识普及，产<br/>
-                                                    品更新以及团队动态。
+                                        <a href="http://beingswu.coding.me/">
+                                            <div className="nav-stripe-product-cell">
+                                                <div className="nav-stripe-product-imgbox">
+                                                    <img src="http://ofji7fgcp.bkt.clouddn.com/blog.svg" />
+                                                </div>
+                                                <div className="nav-stripe-product-textbox">
+                                                    <div className="nav-stripe-product-title">技术博客</div>
+                                                    <div className="nav-stripe-product-inner">
+                                                        技术博客包含直播知识普及，产<br/>
+                                                        品更新以及团队动态。
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-
+                                        </a>
                                     </div>
                                 </div>
                             </div>

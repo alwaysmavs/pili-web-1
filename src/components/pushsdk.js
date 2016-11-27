@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import { Router, Route, Link } from 'react-router';
-import Faq from '../public/faq';
-import Doc from '../public/doc';
-import FeatureList from '../public/featureList';
-import { PUSH_FEATURELIST } from '../../constants/featureListData';
-import { PUSH_FAQ } from '../../constants/faqData';
-import { PUSH_DOC } from '../../constants/docData';
+import Faq from './public/faq';
+import Doc from './public/doc';
+import FeatureList from './public/featureList';
+import { PUSH_FEATURELIST } from '../constants/featureListData';
+import { PUSH_FAQ } from '../constants/faqData';
+import { PUSH_DOC } from '../constants/docData';
 
 
 class Pushsdk extends Component {

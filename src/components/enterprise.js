@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import HomepageBg from '../homepage/homepageBg';
-import Apply from '../public/apply';
+import HomepageBg from './homepage/homepageBg';
+import Apply from './public/apply';
 
 
 class Enterprise extends Component {
