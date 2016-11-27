@@ -37,9 +37,9 @@ class Navigator extends Component {
                                 </div>
                             </a>
 
-                            <Link to="/enterprise">
+                            <Link to="/living">
                                 <div className="colorize" data-dropdown="enterprise">
-                                    <span className="rootLink2">企业服务</span>
+                                    <span className="rootLink2">最佳实践 Living</span>
                                 </div>
                             </Link>
 

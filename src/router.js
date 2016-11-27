@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import App from './components/index';
 import Living from './components/living/living';
 import Homepage from './components/homepage/homepage';
-import Contact from './components/contact/contact';
+import Contact from './components/public/contact';
 import Enterprise from './components/enterprise/enterprise';
 import Character from './components/character/character';
 import Price from './components/price/price';

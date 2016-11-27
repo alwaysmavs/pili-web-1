@@ -12,8 +12,8 @@ class Footer extends Component {
                             <Link to="/about"> 关于我们</Link>
                         </div>
                         <div>
-                            <Link to="/living">
-                                最佳实践 Demo
+                            <Link to="/enterprise">
+                                企业服务
                             </Link>
                         </div>
                         <div>

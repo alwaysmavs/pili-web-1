@@ -15,24 +15,19 @@
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  font-weight: 200;
   .flex-box-between
 }
 
 
 
 .document-part1-title{
-  /* 开发者第一: */
-  font-size: 40px;
-  color: #000000;
+  .font-38;
   line-height: 58px;
   padding-top: 140px;
 }
 
 .document-part1-inner{
-  /* 我们认为，直播技术最终是一个根植于代码的: */
-  font-size: 18px;
-  color: #000000;
+  .font-16;
   line-height: 32px;
   padding-top: 18px;
   width: 480px;
@@ -53,6 +48,7 @@
 }
 
 .document-part2-cell1{
+  width: 200px;
   .flex-box-between;
 }
 
@@ -65,20 +61,18 @@
 
 .document-part2-title1{
   line-height: 60px;
-  font-weight: 200;
-
-  /* 播放器 SDK: */
-  font-size: 32px;
-  color: #000000;
-  letter-spacing: 0.88px;
+  .font-28;
 }
 
 .document-part2-inner{
   /* 开发文档: */
-  font-size: 18px;
-  color: #6E6E6E;
+  .font-18;
   line-height: 40px;
-  font-weight: 200;
+  .main-duration;
+  a{
+    color: @font-color-gray;
+    .main-duration;
+  }
 }
 
 .document-part2-img{
@@ -89,21 +83,15 @@
 }
 
 .document-part2-cell1{
-  padding-right: 40px;
-  width: 290px;
+  width: 260px;
 }
 
 .document-part2-cell{
-  padding-right: 40px;
-  width: 240px;
+  width: 200px;
 }
 
 .document-part2-title{
-  font-weight: 200;
-  /* iOS 播放器 SDK: */
-  font-size: 24px;
-  color: #000000;
-  letter-spacing: 0.66px;
+  .font-20;
   margin-bottom: 18px;
 }
 
@@ -117,20 +105,12 @@
 }
 
 .document-part3-title{
-  /* 博客: */
-  font-size: 24px;
-  color: #000000;
-  letter-spacing: 0.66px;
-  font-weight: 200;
+  .font-24;
 }
 
 .document-part3-inner{
-  /* 产品动态、直播知识: */
-  font-size: 18px;
-  color: #000000;
-  letter-spacing: 0.49px;
+  .font-18;
   line-height: 31px;
-  font-weight: 200;
   margin-top: 16px;
 }
 
@@ -147,26 +127,14 @@
 @media (max-width:1336px) {
   .document-part1{
     width: 960px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 200;
-    .flex-box-between
   }
 
   .document-part1-inner{
-    /* 我们认为，直播技术最终是一个根植于代码的: */
-    font-size: 18px;
-    color: #000000;
-    line-height: 32px;
-    padding-top: 18px;
     width: 400px;
   }
 
   .document-part2{
     width: 960px;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 

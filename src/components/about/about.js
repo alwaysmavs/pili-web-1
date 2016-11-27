@@ -133,48 +133,31 @@ class About extends Component {
                 </div>
                 <div className="about-part2-bg">
                     <div className="about-part2">
-                        <div className="about-part2-title">团队</div>
-                        <div className="about-part2-inner">
-                            Pili 让直播通信更便捷地应用在人们日常使用的喜爱产品之上，我们每天帮助处在世界各地<br/>
-                            的直播产品企业或者团队处理上亿的直播讯息。
+                        <div className="about-part2-line">
+                            <div className="about-part2-left">关于我们</div>
+                            <div className="about-part2-right">
+                                <div className="about-part2-inner">
+                                    Pili 让直播通信更便捷地应用在人们日常使用的喜爱产品之上，我们每天帮助处在世界各地的直播产品企业或者团队处理上亿的直播讯息。
+                                </div>
+                                <div className="about-part2-link">
+                                    <div>团队博客</div>
+                                    <div>联系我们</div>
+                                </div>
+                            </div>
                         </div>
-                        <div className="about-part2-member">
-                            <div className="about-part2-memberbox">
-                                <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
+                        <div className="about-part2-line">
+                            <div className="about-part2-left">品牌资源</div>
+                            <div className="about-part2-right">
+                                <div className="about-part2-inner">
+                                    我们虽然是一个极小的团队，但我们认同设计是直播一整套系统最重要的部分之一。
                                 </div>
-                                <div className="about-part2-member-name">XU Li</div>
-                                <div className="about-part2-member-title">Product Owner</div>
-                            </div>
-
-                            <div className="about-part2-memberbox">
-                                <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
+                                <div className="about-part2-link2">
+                                    <div>下载品牌 Logo</div>
+                                    <div>产品宣传册</div>
                                 </div>
-                                <div className="about-part2-member-name">XU Li</div>
-                                <div className="about-part2-member-title">Product Owner</div>
-                            </div>
-
-                            <div className="about-part2-memberbox">
-                                <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
-                                </div>
-                                <div className="about-part2-member-name">XU Li</div>
-                                <div className="about-part2-member-title">Product Owner</div>
-                            </div>
-
-                            <div className="about-part2-memberbox">
-                                <div className="about-part2-imgbox">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/xuli.png"/>
-                                </div>
-                                <div className="about-part2-member-name">XU Li</div>
-                                <div className="about-part2-member-title">Product Owner</div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="about-part3">
-
                 </div>
             </div>
         )
