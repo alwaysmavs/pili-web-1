@@ -1,6 +1,5 @@
 !function ($) {
 
-
     return $ ? ($.Unslider = function (t, n) {
         var e = this;
         return e._ = "unslider", e.defaults = {

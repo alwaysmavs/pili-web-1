@@ -1,6 +1,5 @@
-import { Router, Route, Link,hashHistory } from 'react-router'
-import  Routers from './router'
-import './style/main.less'
+import  Routers from './router';
+import './style/main.less';
 
 let Menu = React.createClass({
     render() {
