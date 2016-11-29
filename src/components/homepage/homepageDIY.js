@@ -151,10 +151,10 @@ class HomepageDIY extends Component {
                 <div className="homepageDIY-right">
                     <div>
                         <img className="homepageDIY-right-img" src="http://ofji7fgcp.bkt.clouddn.com/iPhone-7-Front.png" />
-                        <img className="homepageDIY-right-img-inner" id="layer1" style={{zIndex:this.state.layer1}} src="http://ofji7fgcp.bkt.clouddn.com/gift.png" />
-                        <img className="homepageDIY-right-img-inner" id="layer2" style={{zIndex:this.state.layer2}} src="http://ofji7fgcp.bkt.clouddn.com/rtcscreen.png" />
-                        <img className="homepageDIY-right-img-inner" id="layer3" style={{zIndex:this.state.layer3}} src="http://ofji7fgcp.bkt.clouddn.com/faceu.png" />
-                        <img className="homepageDIY-right-img-inner" id="layer4" style={{zIndex:this.state.layer4}} src="http://ofji7fgcp.bkt.clouddn.com/like.png" />
+                        <img className="homepageDIY-right-img-inner" id="layer1" style={{zIndex:this.state.layer1}} src="http://ofji7fgcp.bkt.clouddn.com/like.png" />
+                        <img className="homepageDIY-right-img-inner" id="layer2" style={{zIndex:this.state.layer2}} src="http://ofji7fgcp.bkt.clouddn.com/gift.png" />
+                        <img className="homepageDIY-right-img-inner" id="layer3" style={{zIndex:this.state.layer3}} src="http://ofji7fgcp.bkt.clouddn.com/rtcscreen.png" />
+                        <img className="homepageDIY-right-img-inner" id="layer4" style={{zIndex:this.state.layer4}} src="http://ofji7fgcp.bkt.clouddn.com/faceu.png" />
                     </div>
                 </div>
             </div>
