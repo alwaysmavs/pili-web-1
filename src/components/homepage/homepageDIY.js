@@ -137,7 +137,7 @@ class HomepageDIY extends Component {
                                 <span>连麦</span>
                             </div>
                             <div className="homepageDIY-line3-cell2" style={{opacity:this.state.btn4}} onClick={this.selectClick.bind(this,4) }>
-                                <span>动态美颜</span>
+                                <span>动态表情</span>
                             </div>
                         </div>
 
