@@ -13,6 +13,7 @@ export const PLAYER_DOC = {
 
 export const RTC_DOC = {
     pageName:"连麦",
+    serveSdkName:"Serve SDK 下载",
     releaseIosUrl:"http://www.baidu.com",
     releaseAndroidUrl:"",
     beginIosUrl:"",

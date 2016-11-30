@@ -14,12 +14,12 @@ class Doc extends Component {
                         <div className="doc-outbox-title">更新日志</div>
                         <div className="doc-outbox-inner">
                             <a href={docData.releaseIosUrl}>
-                                iOS 平台更新记录
+                                iOS 更新记录
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
                             <a href={docData.releaseAndroidUrl}>
-                                Android 平台更新记录
+                                Android 更新记录
                             </a>
                         </div>
                     </div>
@@ -27,12 +27,12 @@ class Doc extends Component {
                         <div className="doc-outbox-title">快速开始</div>
                         <div className="doc-outbox-inner">
                             <a href={docData.beginIosUrl}>
-                                iOS 平台快速开始
+                                iOS 快速开始
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
                             <a href={docData.beginAndroidUrl}>
-                                Android 平台快速开始
+                                Android 快速开始
                             </a>
                         </div>
                     </div>
@@ -48,11 +48,24 @@ class Doc extends Component {
                                 Android 开发文档
                             </a>
                         </div>
-                        {/*<div className="doc-outbox-inner">*/}
-                            {/*<a href={docData.designDocUrl}>*/}
-                                {/*设计方案文档*/}
-                            {/*</a>*/}
-                        {/*</div>*/}
+                    </div>
+                    <div className="doc-outbox-cell">
+                        <div className="doc-outbox-title">下载地址</div>
+                        <div className="doc-outbox-inner">
+                            <a href={docData.developerIosUrl}>
+                                iOS 下载地址
+                            </a>
+                        </div>
+                        <div className="doc-outbox-inner">
+                            <a href={docData.developerAndroidUrl}>
+                                Android 下载地址
+                            </a>
+                        </div>
+                        <div className="doc-outbox-inner">
+                            <a href={docData.developerAndroidUrl}>
+                                {docData.serveSdkName}
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="doc-outbox-line2">
