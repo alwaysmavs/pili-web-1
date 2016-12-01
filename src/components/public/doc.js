@@ -13,12 +13,12 @@ class Doc extends Component {
                     <div className="doc-outbox-cell">
                         <div className="doc-outbox-title">更新日志</div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.releaseIosUrl}>
+                            <a href={docData.releaseIosUrl}  target="_blank">
                                 iOS 更新记录
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.releaseAndroidUrl}>
+                            <a href={docData.releaseAndroidUrl}  target="_blank">
                                 Android 更新记录
                             </a>
                         </div>
@@ -26,12 +26,12 @@ class Doc extends Component {
                     <div className="doc-outbox-cell">
                         <div className="doc-outbox-title">开发文档</div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.developerIosUrl}>
+                            <a href={docData.developerIosUrl}  target="_blank">
                                 iOS 开发文档
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.developerAndroidUrl}>
+                            <a href={docData.developerAndroidUrl}  target="_blank">
                                 Android 开发文档
                             </a>
                         </div>
@@ -39,17 +39,17 @@ class Doc extends Component {
                     <div className="doc-outbox-cell">
                         <div className="doc-outbox-title">下载地址</div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.iosDownLoadUrl}>
+                            <a href={docData.iosDownLoadUrl}  target="_blank">
                                 iOS 下载地址
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.AndroidDownloadUrl}>
+                            <a href={docData.AndroidDownloadUrl}  target="_blank">
                                 Android 下载地址
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.ServerDownloadUrl}>
+                            <a href={docData.ServerDownloadUrl}  target="_blank">
                                 {docData.serveSdkName}
                             </a>
                         </div>
