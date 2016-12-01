@@ -24,19 +24,6 @@ class Doc extends Component {
                         </div>
                     </div>
                     <div className="doc-outbox-cell">
-                        <div className="doc-outbox-title">快速开始</div>
-                        <div className="doc-outbox-inner">
-                            <a href={docData.beginIosUrl}>
-                                iOS 快速开始
-                            </a>
-                        </div>
-                        <div className="doc-outbox-inner">
-                            <a href={docData.beginAndroidUrl}>
-                                Android 快速开始
-                            </a>
-                        </div>
-                    </div>
-                    <div className="doc-outbox-cell">
                         <div className="doc-outbox-title">开发文档</div>
                         <div className="doc-outbox-inner">
                             <a href={docData.developerIosUrl}>
@@ -52,17 +39,17 @@ class Doc extends Component {
                     <div className="doc-outbox-cell">
                         <div className="doc-outbox-title">下载地址</div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.developerIosUrl}>
+                            <a href={docData.iosDownLoadUrl}>
                                 iOS 下载地址
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.developerAndroidUrl}>
+                            <a href={docData.AndroidDownloadUrl}>
                                 Android 下载地址
                             </a>
                         </div>
                         <div className="doc-outbox-inner">
-                            <a href={docData.developerAndroidUrl}>
+                            <a href={docData.ServerDownloadUrl}>
                                 {docData.serveSdkName}
                             </a>
                         </div>

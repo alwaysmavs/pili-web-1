@@ -39,7 +39,7 @@ export const BG_CUSTOMER = [
     },
     {
         customerId: 9,
-        customerImg: "http://ofji7fgcp.bkt.clouddn.com/17.svg"
+        customerImg: "http://ofji7fgcp.bkt.clouddn.com/17zhibo.svg"
     }
 ];
 

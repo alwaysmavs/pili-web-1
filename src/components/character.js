@@ -50,28 +50,28 @@ class Character extends Component {
 
                         <div className="character-part2-box">
                             <div className="character-part2-right">
-                                <img className="character-part2-img1" src="http://ofji7fgcp.bkt.clouddn.com/icon_lianmai.svg" />
+                                <img className="character-part2-img1" src="http://ofji7fgcp.bkt.clouddn.com/icon_lianmai%282%29.svg" />
                             </div>
                             <div className="character-part2-title">连麦互动</div>
-                            <div className="character-part2-inner">弹幕、私信，以及更多更快速的 IM 方案集成。</div>
+                            <div className="character-part2-inner">增加主播和用户的事实互动性，让产品更加生动</div>
                         </div>
 
 
                         <div className="character-part2-box">
                             <div className="character-part2-right">
-                                <img className="character-part2-img2" src="http://ofji7fgcp.bkt.clouddn.com/icon_message.svg" />
+                                <img className="character-part2-img2" src="http://ofji7fgcp.bkt.clouddn.com/icon_face(1).svg" />
                             </div>
-                            <div className="character-part2-title">消息互动</div>
-                            <div className="character-part2-inner">弹幕、私信，以及更多更快速的 IM 方案集成。</div>
+                            <div className="character-part2-title">面部特效</div>
+                            <div className="character-part2-inner">提供精准的检测和丰富有趣的贴纸，让直播充满趣味</div>
                         </div>
 
 
                         <div className="character-part2-box">
                             <div className="character-part2-right">
-                                <img className="character-part2-img3" src="http://ofji7fgcp.bkt.clouddn.com/icon_meiyan.svg" />
+                                <img className="character-part2-img3" src="http://ofji7fgcp.bkt.clouddn.com/icon_ScreenCAP(1).svg" />
                             </div>
-                            <div className="character-part2-title">美颜滤镜</div>
-                            <div className="character-part2-inner">主播端画面加入各种滤镜效果，十分逼真优秀的美颜效果</div>
+                            <div className="character-part2-title">全平台录屏</div>
+                            <div className="character-part2-inner">提供最优质和全面的录屏方案，实施分享主播的体验</div>
                         </div>
 
                 </div>
