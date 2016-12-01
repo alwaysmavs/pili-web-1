@@ -203,7 +203,7 @@ class Document extends Component {
 
                 <div className="document-part3">
 
-                    <a href="http://www.blog.beings.me">
+                    <a href="http://www.blog.beings.me"  target="_blank">
                         <div className="document-part3-cell">
                             <div className="document-part3-title">博客</div>
                             <div className="document-part3-inner">产品动态、直播知识</div>
@@ -212,7 +212,7 @@ class Document extends Component {
 
                     <div className="document-part3-cutline"></div>
 
-                    <a href="https://pili.kf5.com/hc/">
+                    <a href="https://pili.kf5.com/hc/"  target="_blank">
                         <div className="document-part3-cell">
                             <div className="document-part3-title">常见问题</div>
                             <div className="document-part3-inner">关于 SDK 的常见问题</div>

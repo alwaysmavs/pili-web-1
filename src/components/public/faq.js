@@ -12,7 +12,7 @@ class Faq extends Component {
         let faqList = faqArray.map(
             function (data) {
                 return (
-                    <a href={data.faqUrl}>
+                    <a href={data.faqUrl}  target="_blank">
                         <div className="faq-question" key={data.faqId}>
                             <div className="faq-question-title">
                                 {data.faqTitle}
