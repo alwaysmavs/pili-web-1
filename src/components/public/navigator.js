@@ -171,7 +171,7 @@ class Navigator extends Component {
                                                 </div>
                                             </div>
                                         </Link>
-                                        <a href="http://www.blog.beings.me/">
+                                        <a href="http://www.blog.pili.video/">
                                             <div className="nav-stripe-product-cell">
                                                 <div className="nav-stripe-product-imgbox">
                                                     <img src="http://ofji7fgcp.bkt.clouddn.com/blog.svg" />

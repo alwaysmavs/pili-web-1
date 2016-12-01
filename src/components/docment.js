@@ -166,7 +166,12 @@ class Document extends Component {
                             <div className="document-part2-title">iOS 连麦互动 SDK</div>
                             <div className="document-part2-inner">
                                 <a href="http://oaccf377t.bkt.clouddn.com/PLMediaStreamingKit_v2.1.4.5.zip">
-                                    SDK 以及文档下载
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="http://oaccf377t.bkt.clouddn.com/PLMediaStreamingKit_v2.1.4.5.zip">
+                                    SDK 下载
                                 </a>
                             </div>
                         </div>
@@ -174,7 +179,12 @@ class Document extends Component {
                             <div className="document-part2-title">Android 连麦互动 SDK</div>
                             <div className="document-part2-inner">
                                 <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-11-03-Android.zip">
-                                    SDK 以及文档下载
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-11-03-Android.zip">
+                                    SDK 下载
                                 </a>
                             </div>
                         </div>
@@ -188,7 +198,12 @@ class Document extends Component {
                             <div className="document-part2-title">server 连麦互动 SDK</div>
                             <div className="document-part2-inner">
                                 <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-Server.zip">
-                                    SDK 以及文档下载
+                                    开发文档
+                                </a>
+                            </div>
+                            <div className="document-part2-inner">
+                                <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-Server.zip">
+                                    SDK 下载
                                 </a>
                             </div>
                         </div>

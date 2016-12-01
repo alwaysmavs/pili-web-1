@@ -35,6 +35,11 @@ class Doc extends Component {
                                 Android 开发文档
                             </a>
                         </div>
+                        <div className="doc-outbox-inner">
+                            <a href={docData.developerServerUrl}  target="_blank">
+                                {docData.serveSdkDocName}
+                            </a>
+                        </div>
                     </div>
                     <div className="doc-outbox-cell">
                         <div className="doc-outbox-title">下载地址</div>
@@ -50,7 +55,7 @@ class Doc extends Component {
                         </div>
                         <div className="doc-outbox-inner">
                             <a href={docData.ServerDownloadUrl}  target="_blank">
-                                {docData.serveSdkName}
+                                {docData.serveSdkDownloadName}
                             </a>
                         </div>
                     </div>
