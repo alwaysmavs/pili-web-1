@@ -28,7 +28,7 @@ class HomepageScene extends Component {
                     <div className="fading-slider unslider-fade" style={{overflow:'hidden'}}>
                         <ul className="unslider-wrap">
                             <li>
-                                <img src="http://ofji7fgcp.bkt.clouddn.com/shejiao.png"/>
+                                <img src="http://ocrnw7z2m.bkt.clouddn.com/shejiao.png"/>
                             </li>
                             <li>
                                 <img src="http://ofji7fgcp.bkt.clouddn.com/jiaoxun.png"/>

@@ -171,7 +171,7 @@ class Document extends Component {
                             </div>
                         </div>
                         <div className="document-part2-cell">
-                            <div className="document-part2-title">Android 连麦互动 SDK</div>
+                            <div className="document-part2-title">Android 连麦 SDK</div>
                             <div className="document-part2-inner">
                                 <a href="http://obyikocz6.bkt.clouddn.com/%E4%B8%83%E7%89%9B%E8%BF%9E%E9%BA%A6SDK-11-03-Android.zip">
                                     SDK 以及文档下载
