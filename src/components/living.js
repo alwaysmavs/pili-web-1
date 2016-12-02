@@ -20,7 +20,7 @@ class Living extends Component {
                     </div>
                     <div className="living-part1-right">
                         <div>
-                            <img src="http://ofji7fgcp.bkt.clouddn.com/download.svg"/>
+                            <img src="http://ogbaxzius.bkt.clouddn.com/living_download.png"/>
                         </div>
                         <div className="living-part1-ios">
                             扫码下载 iOS 版本

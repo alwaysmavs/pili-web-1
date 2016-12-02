@@ -144,7 +144,7 @@ class Homepage extends Component {
                         <div className="homepage-part3-box">
                             <div className="homepage-part3-title">SDK 功能</div>
                             <div className="homepage-part3-inner">
-                                我们使用了胶水层开发模式，自定义的开放接口，可以不断容纳第三方音视频效果。
+                                我们支持了 iOS 以及 Android 的直播推流以及播放，更加便捷给予更多端的不同版本。
                             </div>
                         </div>
                     </Link>
@@ -153,7 +153,7 @@ class Homepage extends Component {
                         <div className="homepage-part3-box">
                             <div className="homepage-part3-title">开发文档</div>
                             <div className="homepage-part3-inner">
-                                我们支持了 iOS 以及 Android 的直播推流以及播放，更加便捷给予更多端的不同版本。
+                                我们支持了提供了友好的开发文档，让使用 Pili SDK 的用户更简单的接入。
                             </div>
                         </div>
                     </Link>
@@ -162,8 +162,7 @@ class Homepage extends Component {
                         <div className="homepage-part3-box">
                             <div className="homepage-part3-title">企业服务</div>
                             <div className="homepage-part3-inner">
-                                为了惠及更多的客户，应对不断变化的市场需求，
-                                我们提供定制化的企业服务。
+                                为了惠及更多的客户，应对不断变化的市场需求，我们提供定制化的企业服务。
                             </div>
                         </div>
                     </Link>

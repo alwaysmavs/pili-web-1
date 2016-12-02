@@ -71,17 +71,17 @@ class Document extends Component {
                         <div className="document-part2-cell">
                             <div className="document-part2-title">iOS 播放器 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/plplayerkit/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/plplayerkit/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="http://cocoadocs.org/docsets/PLPlayerKit/2.2.1/Classes/PLPlayer.html">
+                                <a href="http://cocoadocs.org/docsets/PLPlayerKit/2.2.1/Classes/PLPlayer.html" target="_blank">
                                     API 文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="https://github.com/pili-engineering/PLPlayerKit">
+                                <a href="https://github.com/pili-engineering/PLPlayerKit" target="_blank">
                                     SDK 下载
                                 </a>
                             </div>
@@ -89,17 +89,17 @@ class Document extends Component {
                         <div className="document-part2-cell">
                             <div className="document-part2-title">Android 播放器 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/pldroidplayer/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/pldroidplayer/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="http://pili-docs.cloudvdn.com/android-player/index.html">
+                                <a href="http://pili-docs.cloudvdn.com/android-player/index.html" target="_blank">
                                     API 文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="https://github.com/pili-engineering/PLDroidPlayer">
+                                <a href="https://github.com/pili-engineering/PLDroidPlayer" target="_blank">
                                     SDK 下载
                                 </a>
                             </div>
@@ -118,17 +118,17 @@ class Document extends Component {
                         <div className="document-part2-cell">
                             <div className="document-part2-title">iOS 推流 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/plmediastreamingkit/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/plmediastreamingkit/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="http://cocoadocs.org/docsets/PLCameraStreamingKit/1.7.2/">
+                                <a href="http://cocoadocs.org/docsets/PLCameraStreamingKit/1.7.2/" target="_blank">
                                     API 文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="https://github.com/pili-engineering/PLMediaStreamingKit">
+                                <a href="https://github.com/pili-engineering/PLMediaStreamingKit" target="_blank">
                                     SDK 下载
                                 </a>
                             </div>
@@ -136,17 +136,17 @@ class Document extends Component {
                         <div className="document-part2-cell">
                             <div className="document-part2-title">Android 推流 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/androidpush/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/androidpush/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="http://pili-docs.cloudvdn.com/android-streaming/index.html">
+                                <a href="http://pili-docs.cloudvdn.com/android-streaming/index.html" target="_blank">
                                     API 文档
                                 </a>
                             </div>
                             <div className="document-part2-inner">
-                                <a href="https://github.com/pili-engineering/PLDroidMediaStreaming">
+                                <a href="https://github.com/pili-engineering/PLDroidMediaStreaming" target="_blank">
                                     SDK 下载
                                 </a>
                             </div>
@@ -165,7 +165,7 @@ class Document extends Component {
                         <div className="document-part2-cell">
                             <div className="document-part2-title">iOS 连麦 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/plrtcios/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/plrtcios/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
@@ -178,7 +178,7 @@ class Document extends Component {
                         <div className="document-part2-cell">
                             <div className="document-part2-title">Android 连麦 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/plrtcdroid/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/plrtcdroid/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
@@ -195,9 +195,9 @@ class Document extends Component {
 
                         </div>
                         <div className="document-part2-cell">
-                            <div className="document-part2-title">server 连麦 SDK</div>
+                            <div className="document-part2-title">Server 连麦 SDK</div>
                             <div className="document-part2-inner">
-                                <a href="https://alwaysmavs.gitbooks.io/plserverrtc/content/">
+                                <a href="https://alwaysmavs.gitbooks.io/plserverrtc/content/" target="_blank">
                                     开发文档
                                 </a>
                             </div>
@@ -218,7 +218,7 @@ class Document extends Component {
 
                 <div className="document-part3">
 
-                    <a href="http://www.blog.beings.me"  target="_blank">
+                    <a href="http://www.blog.pili.video"  target="_blank">
                         <div className="document-part3-cell">
                             <div className="document-part3-title">博客</div>
                             <div className="document-part3-inner">产品动态、直播知识</div>

@@ -1,5 +1,6 @@
 export const RTC_FAQ = {
     pageName:"连麦",
+    kf5url:"https://pili.kf5.com/hc/kb/category/1000156/",
     pageFaq:[
         {
             faqId: 1,
@@ -42,6 +43,7 @@ export const RTC_FAQ = {
 
 export const PUSH_FAQ = {
     pageName:"推流",
+    kf5url:"https://pili.kf5.com/hc/kb/category/24786/",
     pageFaq:[
         {
             faqId: 1,
@@ -84,6 +86,7 @@ export const PUSH_FAQ = {
 
 export const PLAYER_FAQ = {
     pageName:"播放器",
+    kf5url:"https://pili.kf5.com/hc/kb/category/24787/",
     pageFaq:[
         {
             faqId: 1,

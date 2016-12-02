@@ -31,7 +31,9 @@ class Faq extends Component {
                 <div className="faq-left">
                     <div className="faq-left-midbox">
                         <div className="faq-title">常见问题</div>
-                        <div className="faq-btn">关于{faqData.pageName}更多场景问题</div>
+                        <a href={faqData.kf5url}>
+                            <div className="faq-btn">关于{faqData.pageName}更多场景问题</div>
+                        </a>
                     </div>
                 </div>
 

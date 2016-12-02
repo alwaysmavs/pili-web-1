@@ -18,9 +18,6 @@ class Price extends Component {
                             <div className="price-line1">
                                 默认免费使用
                             </div>
-                            <div className="price-line2">
-                                选择此方案
-                            </div>
                         </div>
 
                         <div className="price-line3">
@@ -57,9 +54,6 @@ class Price extends Component {
                         <div className="price-line-box">
                             <div className="price-line1">
                                 可选拓展服务
-                            </div>
-                            <div className="price-line2">
-                                选择此方案
                             </div>
                         </div>
 
@@ -107,14 +101,14 @@ class Price extends Component {
                     </Link>
                 </div>
 
-                <div className="price-part3">
-                    <div className="cutline"></div>
-                    <div  className="price-part3-inner">
-                        1 基本功能：<br/>
-                        2 高级功能：高级自选美颜，脸部特效，多滤镜选择等等<br/>
-                        3 驻唱支持：专职的技术实施人员，前往贵公司进行服务，每次时效是一天。
-                    </div>
-                </div>
+                {/*<div className="price-part3">*/}
+                    {/*<div className="cutline"></div>*/}
+                    {/*<div  className="price-part3-inner">*/}
+                        {/*1 基本功能：<br/>*/}
+                        {/*2 高级功能：高级自选美颜，脸部特效，多滤镜选择等等<br/>*/}
+                        {/*3 驻场支持：专职的技术实施人员，前往贵公司进行服务，每次时效是一天。*/}
+                    {/*</div>*/}
+                {/*</div>*/}
             </div>
         )
     }
