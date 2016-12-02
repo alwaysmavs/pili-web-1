@@ -159,7 +159,7 @@ class Document extends Component {
                                 <img src="http://ofji7fgcp.bkt.clouddn.com/lianmai.svg" />
                             </div>
                             <div className="document-part2-title1">
-                                连麦 SDK
+                                连麦互动 SDK
                             </div>
                         </div>
                         <div className="document-part2-cell">
@@ -195,7 +195,7 @@ class Document extends Component {
 
                         </div>
                         <div className="document-part2-cell">
-                            <div className="document-part2-title">server 连麦互动 SDK</div>
+                            <div className="document-part2-title">server 连麦 SDK</div>
                             <div className="document-part2-inner">
                                 <a href="https://alwaysmavs.gitbooks.io/plserverrtc/content/">
                                     开发文档
