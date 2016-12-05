@@ -93,7 +93,7 @@ class Pushsdk extends Component {
                         <div className="pushsdk-part3-line1">
                             <div className="pushsdk-part3-right-inner">
                                 <div className="pushsdk-part3-right-icon">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/compress1.svg" />
+                                    <img src="http://ofji7fgcp.bkt.clouddn.com/face.svg" />
                                 </div>
                                 <div>
                                     <div className="pushsdk-part3-right-title">滤镜处理，自带美颜</div>
@@ -105,7 +105,7 @@ class Pushsdk extends Component {
 
                             <div className="pushsdk-part3-right-inner">
                                 <div className="pushsdk-part3-right-icon">
-                                    <img src="http://ofji7fgcp.bkt.clouddn.com/face.svg" />
+                                    <img src="http://ocrnw7z2m.bkt.clouddn.com/compress.svg" />
                                 </div>
                                 <div>
                                     <div className="pushsdk-part3-right-title">高效音视频压缩，节约你的带宽费用</div>
