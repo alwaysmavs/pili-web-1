@@ -17,8 +17,9 @@ import Document from './components/docment';
 
 class Routers extends Component {
     render() {
+        const appHistory = useRouterHistory(createHashHistory)({queryKey:false});
         return (
-            <Router history={hashHistory}  render={applyRouterMiddleware(useScroll())}>
+            <Router history={appHistory}  render={applyRouterMiddleware(useScroll())}>
                 <Route path="/" component={App}>
                     <IndexRoute component={Homepage}/>
                     <Route path="contact" component={Contact}/>
